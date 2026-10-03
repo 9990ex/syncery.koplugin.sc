@@ -1,0 +1,3894 @@
+# Translation template for the Syncery KOReader plugin.
+# Copyright (C) 2026 Syncery contributors
+# This file is distributed under the same license as the Syncery package.
+# Syncery contributors, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Syncery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-01 06:59+0000\n"
+"PO-Revision-Date: 2026-08-23 00:00+0800\n"
+"Last-Translator: Syncery Chinese translation\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid " (any word)"
+msgstr "（任意词）"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid " (phrase)"
+msgstr "（短语）"
+
+#: main.lua
+msgid "%d annotation deleted and font & layout from another device"
+msgid_plural "%d annotations deleted and font & layout from another device"
+msgstr[0] "另一台设备已删除 %d 条批注，并同步了字体和版式"
+
+#: main.lua
+msgid "%d annotation deleted on another device"
+msgid_plural "%d annotations deleted on another device"
+msgstr[0] "另一台设备已删除 %d 条批注"
+
+#: syncery_migration/storage_mode.lua
+msgid "%d book already in the new location."
+msgid_plural "%d books already in the new location."
+msgstr[0] "新位置中已有 %d 本书。"
+
+#: syncery_migration/storage_mode.lua
+msgid "%d book is not on this device — nothing was moved or deleted for it."
+msgid_plural "%d books are not on this device — nothing was moved or deleted for them."
+msgstr[0] "此设备上没有 %d 本书，未对其移动或删除任何内容。"
+
+#: syncery_ui/menu/status_section.lua syncery_ui/status_section.lua
+msgid "%d d ago"
+msgstr "%d 天前"
+
+#: syncery_ui/jump_toast.lua
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 天"
+
+#: main.lua
+msgid "%d file was skipped — its book could not be identified, so it was left untouched."
+msgid_plural "%d files were skipped — their book could not be identified, so they were left untouched."
+msgstr[0] "跳过了 %d 个文件，无法识别其对应书籍，因此未作改动。"
+
+#: syncery_ui/jump_toast.lua
+msgid "%d h"
+msgstr "%d 小时"
+
+#: syncery_ui/jump_toast.lua
+msgid "%d min"
+msgstr "%d 分钟"
+
+#: syncery_ui/jump_toast.lua
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d 个月"
+
+#: main.lua
+msgid "%d new annotation and font & layout from another device"
+msgid_plural "%d new annotations and font & layout from another device"
+msgstr[0] "另一台设备新增了 %d 条批注，并同步了字体和版式"
+
+#: main.lua
+msgid "%d new annotation from another device"
+msgid_plural "%d new annotations from another device"
+msgstr[0] "另一台设备新增了 %d 条批注"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "%d of %d"
+msgstr "%d / %d"
+
+#: syncery_ui/jump_toast.lua
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d 周"
+
+#: syncery_ui/jump_toast.lua
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d 年"
+
+#: syncery_ui/jump_toast.lua
+msgid "%s, %s: %s"
+msgstr "%s，%s：%s"
+
+#: syncery_ui/jump_toast.lua
+msgid "%s: %s"
+msgstr "%s：%s"
+
+#: syncery_ui/status_section.lua
+msgid "%s: no backend"
+msgstr "%s：无后端"
+
+#: main.lua
+msgid "(%d other file was skipped — its book could not be identified.)"
+msgid_plural "(%d other files were skipped — their book could not be identified.)"
+msgstr[0] "（另有 %d 个文件被跳过，无法识别其对应书籍。）"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "(.stignore not written: %s)"
+msgstr "（未写入 .stignore：%s）"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "(sync conflict: merge pending)"
+msgstr "（同步冲突：等待合并）"
+
+#: main.lua
+msgid "+%d -%d annotations and font & layout from another device"
+msgstr "另一台设备的批注变更：+%d，-%d；并同步字体和版式"
+
+#: main.lua
+msgid "+%d -%d annotations from another device"
+msgstr "另一台设备的批注变更：+%d，-%d"
+
+#: syncery_ui/jump_toast.lua
+msgid ": %s"
+msgstr "：%s"
+
+#: syncery_ui/jump_toast.lua
+msgid "<1 min"
+msgstr "少于 1 分钟"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "A to Z (by Date)"
+msgstr "A 到 Z（按日期）"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Abort"
+msgstr "中止"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "About this view"
+msgstr "关于此视图"
+
+#: syncery_ui/menu/init.lua
+msgid "Actions for the book you're reading: undo the last jump, clear annotations, or fully reset it."
+msgstr "当前阅读书籍的操作：撤销上一次跳转、清除批注或完全重置。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Add Note"
+msgstr "添加笔记"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "After Info: "
+msgstr "信息之后："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "After Title: "
+msgstr "标题之后："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "All Words"
+msgstr "所有词语"
+
+#: syncery_migration/storage_mode.lua
+msgid "All your KOReader metadata is already in the selected location (%s)."
+msgstr "你的所有 KOReader 元数据已位于所选位置（%s）。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Annotation"
+msgstr "批注"
+
+#: syncery_ui/menu/init.lua
+msgid "Annotation Browser"
+msgstr "批注浏览器"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Annotation Filters"
+msgstr "批注筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Annotations (%d)"
+msgstr "批注（%d）"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Another device's new position: %s"
+msgstr "另一台设备的新位置：%s"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Any Word"
+msgstr "任意词"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Appearance"
+msgstr "外观"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Apply Book Filter"
+msgstr "应用书籍筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Apply Chapter Filter"
+msgstr "应用章节筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Apply Tags Filter"
+msgstr "应用标签筛选"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Apply a hand-built table of contents pushed from another device.\n"
+"\n"
+"Disabled by default. This controls INCOMING TOCs only — sending your own is the manual action below. Only works on reflowable documents (EPUB, FB2)."
+msgstr ""
+"应用另一台设备推送的手工目录。\n"
+"\n"
+"默认禁用。此选项只控制接收的目录；发送自己的目录请使用下方的手动操作。仅适用于可重排文档（EPUB、FB2）。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Ask first"
+msgstr "先询问"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Author"
+msgstr "作者"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Author: "
+msgstr "作者："
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid ""
+"Auto-trigger Reading Statistics and Vocabulary Builder to sync themselves periodically while you read (set the interval below).\n"
+"\n"
+"These plugins sync over their OWN cloud storage -- not Syncery, and not Syncthing -- so this needs the Cloud storage+ plugin enabled and each plugin's cloud server set.  Off by default."
+msgstr ""
+"在阅读时自动触发“阅读统计”和“生词本生成器”按周期同步（请在下方设置间隔）。\n"
+"\n"
+"这些插件通过各自的云存储同步，并不使用 Syncery 或 Syncthing；因此需要启用 Cloud storage+ 插件，并为每个插件设置云端服务器。默认关闭。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "B: "
+msgstr "B："
+
+#: syncery_ui/menu/init.lua
+msgid "Backfill, manage, and clean your synced data; review the sync journal; run transport maintenance."
+msgstr "补齐、管理并清理已同步的数据；查看同步日志；执行传输维护。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Backfill, manage, and review your Syncery data."
+msgstr "补齐、管理并查看你的 Syncery 数据。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "Book"
+msgstr "书籍"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Browse and restore annotations that were deleted on any device.\n"
+"\n"
+"Deleted annotations become tombstones so the deletion propagates to other devices.  Tombstones expire after %d days (see Tombstone retention)."
+msgstr ""
+"浏览并恢复在任意设备上删除的批注。\n"
+"\n"
+"已删除的批注会成为删除标记，以便将删除操作同步到其他设备。删除标记会在 %d 天后过期（参见“删除标记保留期”）。"
+
+#: syncery_ui/menu/init.lua
+msgid "Browse your synced highlights and notes across all books."
+msgstr "浏览所有书籍中已同步的高亮和笔记。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Builds a plain-text snapshot of Syncery's state — version and device, what is being synced, transport status, this book, and recent sync outcomes.\n"
+"\n"
+"Shows a QR code you can scan with a phone to lift it off the device, and copies the full text to the clipboard for pasting into a bug report.\n"
+"\n"
+"Ids are shortened and no credentials are included."
+msgstr ""
+"创建 Syncery 状态的纯文本快照，包括版本和设备、同步内容、传输状态、当前书籍及最近同步结果。\n"
+"\n"
+"显示可用手机扫描的二维码，以便从设备上取走信息；同时将完整文本复制到剪贴板，可粘贴到错误报告中。\n"
+"\n"
+"标识符会被缩短，且不包含凭据。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Buttons - Left"
+msgstr "左侧按钮"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Buttons - Right"
+msgstr "右侧按钮"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "B≠ "
+msgstr "B≠"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "C: "
+msgstr "C："
+
+#: syncery_migration/storage_mode.lua
+msgid "Can't find %s. Point it out, and Syncery will look for the other %d book using the same folder pattern."
+msgid_plural "Can't find %s. Point it out, and Syncery will look for the other %d books using the same folder pattern."
+msgstr[0] "找不到 %s。请指出它的位置，Syncery 会按相同的文件夹规则查找另外 %d 本书。"
+
+#: syncery_migration/storage_mode.lua
+msgid "Can't find %s. Point it out?"
+msgstr "找不到 %s。要指出它的位置吗？"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "Cannot find book path."
+msgstr "找不到书籍路径。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Case-Sensitive: Off"
+msgstr "区分大小写：关"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Case-Sensitive: On"
+msgstr "区分大小写：开"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Ch: "
+msgstr "第："
+
+#: syncery_ui/menu/init.lua
+msgid "Check GitHub for a newer Syncery release and install it."
+msgstr "在 GitHub 检查并安装较新的 Syncery 版本。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Check cloud settings"
+msgstr "检查云端设置"
+
+#: syncery_ui/menu/init.lua
+msgid "Check for plugin updates"
+msgstr "检查插件更新"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Checking %d never-opened book(s) for new data..."
+msgstr "正在检查 %d 本从未打开过的书籍是否有新数据…"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Checking device %d/%d..."
+msgstr "正在检查设备 %d/%d…"
+
+#: syncery_update.lua
+msgid "Checking for plugin updates…"
+msgstr "正在检查插件更新…"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Ch≠ "
+msgstr "第≠"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Clear All Filters"
+msgstr "清除所有筛选条件"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Clear Chapter Filter"
+msgstr "清除章节筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Clear Filter"
+msgstr "清除筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Clear Tags Filter"
+msgstr "清除标签筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Clear filter"
+msgstr "清除筛选"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Clear this book from the prefetch cache"
+msgstr "从预取缓存中清除此书"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Cleared."
+msgstr "已清除。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Cloud storage isn't available in this KOReader build."
+msgstr "此 KOReader 版本不可使用云存储。"
+
+#: main.lua
+msgid ""
+"Conflict-file integration is active.\n"
+"\n"
+"Syncery's own conflict files are hidden from the KOSyncthing+ badge — Syncery resolves them in RAM and deletes the extras."
+msgstr ""
+"冲突文件整合已启用。\n"
+"\n"
+"Syncery 自身的冲突文件不会显示在 KOSyncthing+ 徽章中，Syncery 会在内存中解决冲突并删除多余文件。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Content"
+msgstr "内容"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Content Size: "
+msgstr "内容大小："
+
+#: syncery_transports/plugin_sync.lua
+msgid "Continue"
+msgstr "继续"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "Continue reading"
+msgstr "继续阅读"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Copy diagnostic info"
+msgstr "复制诊断信息"
+
+#: syncery_update.lua
+msgid "Could not check for updates."
+msgstr "无法检查更新。"
+
+#: main.lua
+msgid "Could not register conflict-file patterns with KOSyncthing+.  Its API may have changed; Syncery still merges conflicts locally, but KOSyncthing+ may count them in its badge."
+msgstr "无法向 KOSyncthing+ 注册冲突文件规则。其 API 可能已变更；Syncery 仍会在本地合并冲突，但 KOSyncthing+ 可能会将它们计入徽章。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "Could not resolve the sync-conflict."
+msgstr "无法解决同步冲突。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Could not save the resolved status."
+msgstr "无法保存已解决状态。"
+
+#: main.lua
+msgid "Could not scan for orphaned sync files."
+msgstr "无法扫描孤立的同步文件。"
+
+#: syncery_ui/menu/status_section.lua
+msgid ""
+"Current Syncery status.\n"
+"\n"
+"When a transport needs setup or hits an error, this row becomes tappable — tap to open that transport's setup and fix it.  Otherwise open the Progress Browser to see where your devices are."
+msgstr ""
+"当前 Syncery 状态。\n"
+"\n"
+"当某个传输方式需要设置或发生错误时，此行可点击；点击以打开该传输方式的设置并修复问题。否则可打开进度浏览器查看设备位置。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "C≠ "
+msgstr "C≠"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Date"
+msgstr "日期"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Default"
+msgstr "默认"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Default: 127.0.0.1. Change if Syncthing runs on a different host. Use an IP address or hostname."
+msgstr "默认值：127.0.0.1。若 Syncthing 运行在其他主机上，请修改此项。可使用 IP 地址或主机名。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Default: 127.0.0.1. Use an IP address or hostname."
+msgstr "默认值：127.0.0.1。可使用 IP 地址或主机名。"
+
+#: main.lua
+msgid "Delete these sync files permanently? No book files will be touched."
+msgstr "要永久删除这些同步文件吗？不会改动任何书籍文件。"
+
+#: main.lua
+msgid "Diagnostic info (copied to clipboard)"
+msgstr "诊断信息（已复制到剪贴板）"
+
+#: syncery_ui/wizard_presenter.lua
+msgid "Done"
+msgstr "完成"
+
+#: syncery_update.lua
+msgid "Downloading update…"
+msgstr "正在下载更新…"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Each is synced only when the master switch above is on, and stays off until you turn it on."
+msgstr "仅当上方的总开关开启时才会同步；在你手动开启前，它们始终保持关闭。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Edit Note"
+msgstr "编辑笔记"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Enter the Syncthing API key. Not needed when KOSyncthing+ is installed — it supplies the key for you."
+msgstr "输入 Syncthing API 密钥。安装 KOSyncthing+ 后无需输入，它会自动提供密钥。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Everything about your reading position across devices: send this device's position, choose what happens when another device is ahead, or jump to a specific device on demand."
+msgstr "管理跨设备的阅读位置：发送本设备的位置、选择其他设备进度领先时的处理方式，或按需跳转到指定设备。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Exact Phrase"
+msgstr "精确短语"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Exclude"
+msgstr "排除"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Exclude Color/Style"
+msgstr "排除颜色/样式"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Exclude Highlight Text"
+msgstr "排除高亮文本"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Exclude Note Text"
+msgstr "排除笔记文本"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Exclude by Highlight Text"
+msgstr "按高亮文本排除"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Exclude by Note Text"
+msgstr "按笔记文本排除"
+
+#: syncery_ui/menu/init.lua
+msgid "Fetches the latest release, shows the notes, and installs it in place with a restart."
+msgstr "获取最新版本、显示更新说明，并在重启后就地安装。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filename"
+msgstr "文件名"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filter"
+msgstr "筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filter by Book"
+msgstr "按书籍筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filter by Chapter"
+msgstr "按章节筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filter by Color/Style"
+msgstr "按颜色/样式筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filter by Highlight Text"
+msgstr "按高亮文本筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filter by Note Text"
+msgstr "按笔记文本筛选"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Filter by Tags"
+msgstr "按标签筛选"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Find and delete Syncery's leftover sync files (.syncery-*.json) whose book no longer exists.\n"
+"\n"
+"Looks for your books in KOReader's home folder, plus any sync folders you've set up. Books are matched by content, so renamed or moved books are not affected — only files whose book is truly gone are removed.\n"
+"\n"
+"No book files are touched, and you'll see the list and confirm before anything is deleted."
+msgstr ""
+"查找并删除书籍已不存在时遗留的 Syncery 同步文件（.syncery-*.json）。\n"
+"\n"
+"会在 KOReader 主目录及已配置的同步文件夹中查找书籍。书籍按内容匹配，重命名或移动的书籍不会受影响，只会删除书籍确实已消失的文件。\n"
+"\n"
+"不会改动书籍文件，删除前会显示列表并要求确认。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"Find it in Syncthing → Settings → GUI → API Key.\n"
+"Leave empty if you don't use authentication.\n"
+"\n"
+"You'll pick the folder to sync afterward from \"Choose Syncthing folder\"."
+msgstr ""
+"在 Syncthing → 设置 → GUI → API 密钥中找到它。\n"
+"若未使用身份验证，请留空。\n"
+"\n"
+"之后请在“选择 Syncthing 文件夹”中选择要同步的文件夹。"
+
+#: syncery_ui/wizard.lua
+msgid "Finish setting up %s under Transports."
+msgstr "请在“传输方式”中完成 %s 的设置。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Finished"
+msgstr "已完成"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Font & layout…"
+msgstr "字体与版式…"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Font (typeface)"
+msgstr "字体（字型）"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Font Sizes"
+msgstr "字号"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Font Sizes..."
+msgstr "字号…"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Font size"
+msgstr "字体大小"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Font weight (boldness)"
+msgstr "字重（粗细）"
+
+#: syncery_ui/menu/status_section.lua
+msgid ""
+"For cloud: pushes any changes you've made in books you've opened here, and pulls in whatever changed elsewhere — efficiently, without checking every book one by one. This also finds books you've never opened here that another device already has, and gets their reading progress and notes ready in advance, so they're waiting for you the moment you open them.\n"
+"\n"
+"For Syncthing: triggers an immediate scan of all your Syncthing folders, so its own background syncing catches up right away instead of waiting for its next scheduled check."
+msgstr ""
+"对于云端：推送你在此设备已打开书籍中的变更，并高效拉取其他设备的变更，无需逐本检查。本操作也会发现此设备从未打开、但其他设备已有的书籍，预先准备好其阅读进度和笔记，待你打开时即可使用。\n"
+"\n"
+"对于 Syncthing：立即扫描所有 Syncthing 文件夹，让其后台同步立刻跟上，而无需等待下一次计划检查。"
+
+#: main.lua
+msgid "Found %d orphaned sync file. The book below was not found:"
+msgid_plural "Found %d orphaned sync files. The books below were not found:"
+msgstr[0] "找到 %d 个孤立同步文件。未找到以下书籍："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "From: "
+msgstr "来源："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Go to bookmark"
+msgstr "转到书签"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Go to highlight"
+msgstr "转到高亮"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Go to note"
+msgstr "转到笔记"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Gray"
+msgstr "灰色"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "H: "
+msgstr "H："
+
+#: syncery_ui/jump_toast.lua
+msgid "Here"
+msgstr "此处"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Hide Duplicate Book Header: "
+msgstr "隐藏重复书籍标题："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Highlights Only (no notes)"
+msgstr "仅高亮（无笔记）"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Horizontal Margin: "
+msgstr "水平边距："
+
+#: syncery_ui/wizard.lua
+msgid "How do you want to sync your files?"
+msgstr "要如何同步文件？"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"How long to debounce after a save before uploading.\n"
+"Higher values protect rate-limited providers like Dropbox.\n"
+"Minimum 15 s; recommended 60 s."
+msgstr ""
+"保存后等待多久再上传。\n"
+"较大的值可保护 Dropbox 等有频率限制的服务商。\n"
+"最少 15 秒；建议 60 秒。"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "How often to sync Statistics and Vocabulary while you read, in minutes.  Minimum 1."
+msgstr "阅读时多久同步一次统计和生词本（分钟）。最少 1 分钟。"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "How this works…"
+msgstr "工作方式…"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "H≠ "
+msgstr "H≠"
+
+#: syncery_ui/wizard.lua
+msgid "If you sync more than one Syncthing folder, choose the right one under Transports."
+msgstr "若同步了多个 Syncthing 文件夹，请在“传输方式”中选择正确的一个。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "In sync at %s."
+msgstr "已于 %s 同步。"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "Include Reading Statistics in the auto-trigger."
+msgstr "在自动触发中包含阅读统计"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "Include Vocabulary Builder in the auto-trigger."
+msgstr "在自动触发中包含生词本生成器"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Info Size: "
+msgstr "信息字号："
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Install the KOSyncthing+ plugin to use its integration."
+msgstr "安装 KOSyncthing+ 插件以使用其集成。"
+
+#: syncery_update.lua
+msgid "Installation failed: %1"
+msgstr "安装失败：%1"
+
+#: syncery_update.lua
+msgid ""
+"Installed: %1\n"
+"Latest: %2"
+msgstr ""
+"已安装：%1\n"
+"最新版本：%2"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Jump automatically"
+msgstr "自动跳转"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Jump to another device now…"
+msgstr "立即跳转到其他设备…"
+
+#: main.lua
+msgid "Jump to another device's position?"
+msgstr "要跳转到其他设备的位置吗？"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "Jump to most recent position"
+msgstr "跳转到最新位置"
+
+#: main.lua
+msgid "Jumped to new position."
+msgstr "已跳转到新位置。"
+
+#: main.lua
+msgid "Jumped to the newest position from another device."
+msgstr "已跳转到其他设备上的最新位置。"
+
+#: syncery_ui/wizard.lua
+msgid "KOSyncthing+"
+msgstr "KOSyncthing+"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "KOSyncthing+ integration status…"
+msgstr "KOSyncthing+ 集成状态…"
+
+#: main.lua syncery_update.lua
+msgid "Later"
+msgstr "稍后"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Line spacing"
+msgstr "行距"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Location: Begin to End"
+msgstr "位置：从开始到结束"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Location: End to Begin"
+msgstr "位置：从结束到开始"
+
+#: syncery_ui/menu/init.lua
+msgid "Manage and maintain your Syncery data: backfill old annotations, manage synced books, remove leftover files, view the sync journal, and transport upkeep."
+msgstr "管理和维护你的 Syncery 数据：补齐旧批注、管理已同步书籍、删除遗留文件、查看同步日志和维护传输方式。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Manually edit Syncthing settings: port."
+msgstr "手动编辑 Syncthing 设置：端口。"
+
+#: syncery_ui/booklist/actions.lua
+msgid ""
+"Mark this book's annotations as deleted and remove the local progress file.\n"
+"\n"
+"Reading status, rating, and render settings stay — they're the book's own KOReader state. Other devices can restore the annotations when they sync."
+msgstr ""
+"将此书的批注标记为已删除，并删除本地进度文件。\n"
+"\n"
+"阅读状态、评分和渲染设置会保留，它们是书籍自身的 KOReader 状态。其他设备同步时可恢复这些批注。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid ""
+"Marks ALL annotations (on every device) as deleted and removes the progress file for this book.\n"
+"\n"
+"Reading status, rating, and render settings stay — they're the book's own KOReader state, not removed by this. The deleted annotations stay in the Trash Bin for a while, so they can be restored if you change your mind.\n"
+"\n"
+"To clear the screen, please reopen the book after performing this reset."
+msgstr ""
+"将此书的所有批注（所有设备）标记为已删除，并删除进度文件。\n"
+"\n"
+"阅读状态、评分和渲染设置会保留，它们是书籍自身的 KOReader 状态，不会因此删除。已删除的批注会在回收站保留一段时间，因此改变主意后可恢复。\n"
+"\n"
+"执行此重置后，请重新打开书籍以清除屏幕显示。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Master switch for book metadata syncing (status, rating, collections, custom info, handmade TOC).\n"
+"\n"
+"Metadata is sent together with the reading progress – it updates every few seconds while you read, or immediately on a manual 'Sync now'."
+msgstr ""
+"书籍元数据同步的总开关（状态、评分、收藏夹、自定义信息、手工目录）。\n"
+"\n"
+"元数据会随阅读进度一并发送，阅读时每隔数秒更新，或在手动“立即同步”时立即更新。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Master switch for syncing this book's reading appearance.\n"
+"\n"
+"Off by default — and even when on, NOTHING syncs until you enable individual settings below. Render settings are device-specific, so you choose exactly which ones follow you. Only reflowable documents (EPUB, FB2); changes take effect the next time you open the book."
+msgstr ""
+"同步此书阅读外观的总开关。\n"
+"\n"
+"默认关闭；即使开启，在启用下方单项设置前也不会同步任何内容。渲染设置因设备而异，因此可精确选择要随身同步的项目。仅适用于可重排文档（EPUB、FB2）；变更会在下次打开书籍时生效。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Max Lines Per Highlight: "
+msgstr "每条高亮最大行数："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Max Lines per Highlight"
+msgstr "每条高亮最大行数"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Menu"
+msgstr "菜单"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid ""
+"Merge this book's sync-conflict copies into its annotations and remove them?\n"
+"\n"
+"This also happens automatically the next time you open this book."
+msgstr ""
+"要将此书的同步冲突副本合并到批注中并删除它们吗？\n"
+"\n"
+"下次打开此书时也会自动执行此操作。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid ""
+"Merge this book's sync-conflict copies into its progress and remove them?\n"
+"\n"
+"This also happens automatically the next time you open this book."
+msgstr ""
+"要将此书的同步冲突副本合并到阅读进度中并删除它们吗？\n"
+"\n"
+"下次打开此书时也会自动执行此操作。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Mode: Exclude"
+msgstr "模式：排除"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Mode: Filter"
+msgstr "模式：筛选"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "Most recent elsewhere: %s on %s."
+msgstr "其他设备最新：%s，时间 %s。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "Most recent: %s on %s."
+msgstr "最新：%s，时间 %s。"
+
+#: main.lua
+msgid ""
+"Move %d annotation to Trash?\n"
+"\n"
+"You can restore it from What's synced → Annotations → Trash Bin within 90 days.\n"
+"\n"
+"Note: this includes annotation made before Syncery was installed."
+msgid_plural ""
+"Move %d annotations to Trash?\n"
+"\n"
+"You can restore them from What's synced → Annotations → Trash Bin within 90 days.\n"
+"\n"
+"Note: this includes annotations made before Syncery was installed."
+msgstr[0] ""
+"要将 %d 条批注移至回收站吗？\n"
+"\n"
+"可在 90 天内通过“已同步内容 → 批注 → 回收站”恢复。\n"
+"\n"
+"注意：包括安装 Syncery 前创建的批注。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid ""
+"Move every annotation (highlights, notes, bookmarks) for this book to the Trash Bin, but KEEP your reading position.\n"
+"\n"
+"Use this when you want clean annotations without losing where you are. Different from Full reset, which also clears progress. Restorable from the Trash Bin for 90 days."
+msgstr ""
+"将此书的所有批注（高亮、笔记、书签）移至回收站，但保留阅读位置。\n"
+"\n"
+"需要清空批注又不想丢失当前位置时使用。不同于“完全重置”，此操作不会清除进度。可在 90 天内从回收站恢复。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "N: "
+msgstr "N："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Navigation"
+msgstr "导航"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Never jump"
+msgstr "从不跳转"
+
+#: main.lua
+msgid "New font & layout from another device"
+msgstr "来自其他设备的新字体与版式"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Newest First"
+msgstr "最新优先"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"No API key set.\n"
+"Set up the API key first."
+msgstr ""
+"未设置 API 密钥。\n"
+"请先设置 API 密钥。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "No Syncthing API key yet — set one up first. Not needed with KOSyncthing+."
+msgstr "尚未设置 Syncthing API 密钥，请先设置。使用 KOSyncthing+ 时不需要。"
+
+#: main.lua
+msgid ""
+"No cloud backend is available.\n"
+"\n"
+"Enable the \"Cloud storage+\" plugin (or use a KOReader build with the built-in sync service) so this destination can sync."
+msgstr ""
+"没有可用的云端后端。\n"
+"\n"
+"请启用“Cloud storage+”插件（或使用内置同步服务的 KOReader 版本），此目标才能同步。"
+
+#: main.lua
+msgid "No newer position from another device to jump to."
+msgstr "没有来自其他设备的更新位置可跳转。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "No other device positions to jump to."
+msgstr "没有其他设备的位置可跳转。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid ""
+"No recent jump to undo, or the 60-second undo window has closed.\n"
+"\n"
+"Open another book, jump to another device's position, then this item will become available again."
+msgstr ""
+"没有可撤销的最近跳转，或 60 秒撤销窗口已关闭。\n"
+"\n"
+"打开另一本书，跳转到其他设备的位置后，此项会再次可用。"
+
+#: main.lua
+msgid ""
+"No sync transport is set up yet.\n"
+"\n"
+"Open Transports to set up Syncthing or cloud storage, then Sync now can push your changes to your other devices."
+msgstr ""
+"尚未设置同步传输方式。\n"
+"\n"
+"打开“传输方式”设置 Syncthing 或云存储，之后“立即同步”即可将变更推送到其他设备。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "No sync-conflict copies to resolve."
+msgstr "没有要解决的同步冲突副本。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "No synced annotations for this book."
+msgstr "此书没有已同步的批注。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "No synced annotations found."
+msgstr "未找到已同步的批注。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "No synced reading progress found yet."
+msgstr "尚未找到已同步的阅读进度。"
+
+#: main.lua
+msgid "Not synced (no cloud server set): %s"
+msgstr "未同步（未设置云端服务器）：%s"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Note Spacing: "
+msgstr "笔记间距："
+
+#: syncery_ui/status_panel.lua
+msgid "Note: the \"Cloud storage+\" plugin isn't available — using built-in cloud sync (Dropbox / WebDAV only; FTP won't sync)."
+msgstr "注意：“Cloud storage+”插件不可用，正在使用内置云端同步（仅 Dropbox / WebDAV；FTP 无法同步）。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Notes: All"
+msgstr "笔记：全部"
+
+#: main.lua
+msgid ""
+"Nothing is turned on to sync yet.\n"
+"\n"
+"Open \"What's synced\" to enable reading progress, annotations, or book metadata."
+msgstr ""
+"尚未启用任何同步内容。\n"
+"\n"
+"打开“已同步内容”以启用阅读进度、批注或书籍元数据。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "N≠ "
+msgstr "N≠"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Off"
+msgstr "关"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Oldest First"
+msgstr "最早优先"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "On"
+msgstr "开"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "On hold"
+msgstr "暂停"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "Only this device has read this book (%s)."
+msgstr "只有此设备读过这本书（%s）。"
+
+#: syncery_update.lua
+msgid "Open"
+msgstr "打开"
+
+#: main.lua
+msgid "Open a book first to push its handmade table of contents."
+msgstr "请先打开一本书，再推送其手工目录。"
+
+#: syncery_update.lua
+msgid "Open the releases page in a browser?"
+msgstr "要在浏览器中打开发布页面吗？"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Page %1 of %2"
+msgstr "第 %1 页，共 %2 页"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Page Margins"
+msgstr "页边距"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Page margins"
+msgstr "页边距"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Pagination Style"
+msgstr "分页样式"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Pagination Style..."
+msgstr "分页样式…"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid ""
+"Physically deletes all of this book's Syncery data files — the progress and annotations JSON plus their last-sync and cloud-staging copies.\n"
+"\n"
+"WARNING: This action is immediate and cannot be undone via Syncery. If another device syncs before the deletion propagates, it may restore old data. Use only when you are sure all devices are up‑to‑date and you no longer need the safety net of the Trash Bin.\n"
+"\n"
+"To clear the screen, please reopen the book after performing this reset."
+msgstr ""
+"将物理删除此书所有 Syncery 数据文件，包括进度和批注 JSON，以及它们的上次同步与云端暂存副本。\n"
+"\n"
+"警告：此操作立即执行，且无法通过 Syncery 撤销。如果删除操作同步前有其他设备同步，可能会恢复旧数据。仅在确认所有设备均为最新且不再需要回收站保护时使用。\n"
+"\n"
+"执行此重置后，请重新打开书籍以清除屏幕显示。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Pick another device and jump to its reading position on demand.  Works in any mode, including \"Never\"."
+msgstr "选择其他设备，并按需跳转到其阅读位置。在包括“从不跳转”在内的任何模式下均可使用。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Please enter a number ≥ 15."
+msgstr "请输入不小于 15 的数字。"
+
+#: syncery_update.lua
+msgid "Plugin update available"
+msgstr "有可用的插件更新"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "Point Statistics and Vocabulary Builder at Syncery's own cloud server, so you set the cloud up once here instead of in each plugin.  This changes those plugins' sync settings; turning it off afterwards leaves the last server in place.  Needs a WebDAV or Dropbox server (FTP cannot sync these databases)."
+msgstr "让阅读统计和生词本生成器使用 Syncery 自己的云端服务器，这样只需在此设置一次云端，而不必在各插件中分别设置。这会修改这些插件的同步设置；之后关闭时会保留最后设置的服务器。需要 WebDAV 或 Dropbox 服务器（FTP 无法同步这些数据库）。"
+
+#: syncery_migration/storage_mode.lua
+msgid "Point it out…"
+msgstr "指出位置…"
+
+#: syncery_ui/prefetch_locate.lua
+msgid "Point to it…"
+msgstr "指向它…"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Prefetching book %d/%d (%s)..."
+msgstr "正在预取书籍 %d/%d（%s）…"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Preview Fudge: "
+msgstr "预览微调："
+
+#: syncery_ui/wizard.lua
+msgid "Private file sync"
+msgstr "私有文件同步"
+
+#: syncery_ui/wizard.lua
+msgid "Private file sync — detected on this device"
+msgstr "私有文件同步：已在此设备检测到"
+
+#: syncery_ui/menu/init.lua syncery_ui/progress_browser/init.lua
+msgid "Progress Browser"
+msgstr "进度浏览器"
+
+#: syncery_ui/menu/init.lua
+msgid "Prompt to reload for synced content"
+msgstr "提示重新加载已同步内容"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Push this book's handmade TOC"
+msgstr "推送此书的手工目录"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid ""
+"Reading Statistics and Vocabulary Builder keep their data in their own databases, which they sync through KOReader's Cloud storage+ plugin -- over the network, with a three-way merge so two devices don't overwrite each other.\n"
+"\n"
+"Syncery does not carry or merge these databases itself; it only asks each plugin to run its own sync periodically as you read.  That is why this works over cloud storage only, and not over Syncthing.\n"
+"\n"
+"To use it: enable the Cloud storage+ plugin, set a cloud server in each plugin's own sync settings, then turn on the switches here.\n"
+"\n"
+"Or turn on \"Use Syncery's cloud server\" to set the cloud up once here and let Syncery point both plugins at it."
+msgstr ""
+"阅读统计和生词本生成器将数据保存在各自的数据库中，并通过 KOReader 的 Cloud storage+ 插件在网络上同步，采用三方合并以避免两台设备互相覆盖。\n"
+"\n"
+"Syncery 本身不会传输或合并这些数据库；它只会在阅读时定期请求各插件执行自己的同步。因此，此功能仅适用于云存储，不适用于 Syncthing。\n"
+"\n"
+"使用方法：启用 Cloud storage+ 插件，在各插件的同步设置中设置云端服务器，然后开启此处的开关。\n"
+"\n"
+"或者开启“使用 Syncery 的云端服务器”，仅在这里设置一次云端，再由 Syncery 为两个插件配置它。"
+
+#: syncery_ui/menu/annotations_section.lua syncery_ui/wizard.lua
+msgid "Reading position"
+msgstr "阅读位置"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Reading status set to '%s' on all devices."
+msgstr "所有设备上的阅读状态已设为“%s”。"
+
+#: syncery_ui/menu/init.lua
+msgid ""
+"Reads the shared sync state, so it shows each synced book's reading position on every device — including your other devices. Read-only.\n"
+"\n"
+"Position is shown as a percentage, which is comparable across devices; page numbers are not (they vary by font and screen). Tap a book to see every device's position."
+msgstr ""
+"读取共享同步状态，因此会显示每本已同步书籍在每台设备上的阅读位置，包括你的其他设备。只读。\n"
+"\n"
+"位置以百分比显示，可在设备之间比较；页码不能比较（会随字体和屏幕而变化）。点击书籍可查看所有设备的位置。"
+
+#: syncery_ui/menu/init.lua
+msgid ""
+"Reads the shared sync state, so it shows your highlights and notes from all synced books in one place — including ones made on your other devices. Read-only.\n"
+"\n"
+"It shows each book's LAST SYNCED state. If you add or delete annotations in a book and have not reopened it since, those changes show up here only after that book is reopened — that is when Syncery reconciles it (and propagates it to your other devices).\n"
+"\n"
+"So if you tap an annotation, the book opens, and nothing is there — that is the reason."
+msgstr ""
+"读取共享同步状态，因此可在一处显示所有已同步书籍的高亮和笔记，包括在其他设备上创建的内容。只读。\n"
+"\n"
+"这里显示每本书最后一次同步的状态。若添加或删除批注后尚未重新打开该书，变更只会在重新打开后显示，因为 Syncery 会在那时协调变更并将其传播到其他设备。\n"
+"\n"
+"因此，点击批注后打开书籍却看不到内容，原因就在这里。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Receive handmade TOC"
+msgstr "接收手工目录"
+
+#: main.lua
+msgid "Reload"
+msgstr "重新加载"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Remove the cached, not-yet-applied data for this book? It will be re-downloaded on the next Sync Now if it is still remote-only, or applied normally if you open it before then."
+msgstr "要移除此书已缓存但尚未应用的数据吗？若数据仍只存在于远端，会在下次“立即同步”时重新下载；若此前打开书籍，则会正常应用。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Remove this book from Syncery on this device"
+msgstr "从此设备的 Syncery 中移除此书"
+
+#: main.lua
+msgid "Removed %d orphaned sync file."
+msgid_plural "Removed %d orphaned sync files."
+msgstr[0] "已删除 %d 个孤立同步文件。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Reset my Syncery data for this book"
+msgstr "重置此书的我的 Syncery 数据"
+
+#: syncery_ui/booklist/actions.lua
+msgid ""
+"Reset this device's annotations and progress for this book?\n"
+"\n"
+"Reading status, rating, and render settings stay. Only this device's annotations and progress are cleared; those from your other devices are kept."
+msgstr ""
+"要重置此设备上此书的批注和进度吗？\n"
+"\n"
+"阅读状态、评分和渲染设置会保留。仅清除本设备的批注和进度，其他设备的内容会保留。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "Resolve"
+msgstr "解决"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "Resolve conflict"
+msgstr "解决冲突"
+
+#: main.lua syncery_update.lua
+msgid "Restart"
+msgstr "重启"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid ""
+"Return to the page you were on before the last jump.\n"
+"\n"
+"Available for 60 seconds after each jump.  After that window closes, use \"Jump to another device now…\" (under Reading position) to jump manually."
+msgstr ""
+"返回上一次跳转前所在的页面。\n"
+"\n"
+"每次跳转后可用 60 秒。窗口关闭后，请使用“立即跳转到其他设备…”（在“阅读位置”下）手动跳转。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "S: "
+msgstr "S："
+
+#: syncery_ui/wizard.lua
+msgid "Saved locally for now — your data will sync once you set up a transport."
+msgstr "暂存于本地，设置传输方式后将同步数据。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Scan for books that have native KOReader annotations and add them to Syncery — together with each book's reading status, rating, and the render settings you sync — without opening the book. Looks in your sync folders and in KOReader's central metadata folder.\n"
+"\n"
+"Useful right after install if you already have highlights and notes. It is idempotent: books already synced are skipped."
+msgstr ""
+"扫描具有原生 KOReader 批注的书籍，并将其添加到 Syncery，同时包含每本书的阅读状态、评分和所同步的渲染设置，无需打开书籍。会扫描同步文件夹和 KOReader 中央元数据文件夹。\n"
+"\n"
+"安装后已有高亮和笔记时很有用。此操作可重复执行，已同步的书籍会被跳过。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Scan your library for books with annotations and add them — with their reading status, rating, and synced render settings — to Syncery, without opening each book?\n"
+"\n"
+"Already-synced books are skipped."
+msgstr ""
+"要扫描书库中带批注的书籍，并将其连同阅读状态、评分和已同步的渲染设置添加到 Syncery 吗？无需逐本打开。\n"
+"\n"
+"已同步的书籍会被跳过。"
+
+#: main.lua
+msgid "Scanning books for data…"
+msgstr "正在扫描书籍数据…"
+
+#: main.lua
+msgid ""
+"Scanning books for data…\n"
+"%d / %d"
+msgstr ""
+"正在扫描书籍数据…\n"
+"%d / %d"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Scrollbar"
+msgstr "滚动条"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Scrollbar + Buttons"
+msgstr "滚动条和按钮"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Search"
+msgstr "搜索"
+
+#: syncery_ui/menu/init.lua
+msgid "See where every device has read to, across all your synced books."
+msgstr "查看所有已同步书籍中每台设备的阅读进度。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Selected folder: %s"
+msgstr "已选文件夹：%s"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Send the current book's hand-built table of contents to your other devices now.\n"
+"\n"
+"Sending is always manual — a handmade TOC is a large artifact built once, so it is never auto-synced. The TOC uses text positions (xpointers) that only work on reflowable formats (EPUB, FB2); PDF and image documents are skipped. To RECEIVE TOCs from other devices, enable the switch above."
+msgstr ""
+"立即将当前书籍的手工目录发送到其他设备。\n"
+"\n"
+"发送始终为手动操作。手工目录是一次构建的大型内容，绝不会自动同步。目录使用仅适用于可重排格式（EPUB、FB2）的文本位置（xpointer）；会跳过 PDF 和图像文档。若要接收其他设备的目录，请启用上方开关。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Send this device's reading position — your current page and percentage — so your other devices can follow it.\n"
+"\n"
+"Written automatically as you read and whenever you close or suspend the reader."
+msgstr ""
+"发送此设备的阅读位置，包括当前页和百分比，以便其他设备跟随。\n"
+"\n"
+"阅读时以及关闭或挂起阅读器时会自动写入。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Set"
+msgstr "设置"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Set up API key…"
+msgstr "设置 API 密钥…"
+
+#: syncery_ui/menu/init.lua
+msgid "Set up how this device syncs: Syncthing or cloud storage."
+msgstr "设置此设备的同步方式：Syncthing 或云存储。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Settings"
+msgstr "设置"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Share my position from this device"
+msgstr "分享本设备上的位置"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Show Book / Info Row: "
+msgstr "显示书籍 / 信息行："
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Show highlights from other devices in this device's highlight style, without the colour they were given on the other device; your own highlights keep the style you gave them. Most useful on a grayscale e-reader, where a colour from a colour device isn't visible anyway.\n"
+"\n"
+"Does not alter the stored annotation; only affects how it is displayed here.\n"
+"\n"
+"Works even while syncing is paused."
+msgstr ""
+"以本设备的高亮样式显示来自其他设备的高亮，而不使用其在其他设备上设置的颜色；你自己的高亮会保留原样式。最适合灰阶阅读器，因为彩色设备上的颜色本来也不可见。\n"
+"\n"
+"不会修改已存储的批注，只影响在此处的显示方式。\n"
+"\n"
+"即使暂停同步也有效。"
+
+#: syncery_migration/storage_mode.lua
+msgid "Skip"
+msgstr "跳过"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Sort"
+msgstr "排序"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Sort By"
+msgstr "排序方式"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Space Between Notes"
+msgstr "笔记间距"
+
+#: main.lua syncery_ui/menu/db_sync_section.lua
+msgid "Statistics"
+msgstr "统计"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Statistics & Vocabulary"
+msgstr "统计与生词本"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Status and re-registration of Syncery's integration with the KOSyncthing+ plugin.\n"
+"\n"
+"When KOSyncthing+ is installed, Syncery registers its conflict-file patterns automatically at startup, so its conflict badge won't show files that Syncery resolves internally.\n"
+"\n"
+"Tap to verify the integration is active, or to re-register after installing KOSyncthing+."
+msgstr ""
+"Syncery 与 KOSyncthing+ 插件集成的状态及重新注册。\n"
+"\n"
+"安装 KOSyncthing+ 后，Syncery 会在启动时自动注册冲突文件规则，使其冲突徽章不显示由 Syncery 在内部解决的文件。\n"
+"\n"
+"点击以确认集成已启用，或在安装 KOSyncthing+ 后重新注册。"
+
+#: main.lua
+msgid "Stay"
+msgstr "保留"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync Reading Statistics and Vocabulary Builder across devices, through their own cloud sync.  Tap to choose which, and how it works."
+msgstr "通过各自的云端同步，在设备之间同步阅读统计和生词本生成器。点击以选择同步内容和工作方式。"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "Sync Vocab & Statistics"
+msgstr "同步生词本与统计"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync book status (Finished / Reading / On Hold), star rating, collection membership, custom book info, and handmade table of contents across devices.\n"
+"\n"
+"Open this submenu to toggle metadata syncing and its individual fields."
+msgstr ""
+"在设备之间同步书籍状态（已读完 / 阅读中 / 暂停）、星级评分、收藏夹成员资格、自定义书籍信息和手工目录。\n"
+"\n"
+"打开此子菜单可开关元数据同步及其单独字段。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync font & layout"
+msgstr "同步字体与版式"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync font size, font face, line spacing, font weight, and margins for individual books across devices.\n"
+"\n"
+"Off by default — most users prefer their per-device reading preferences to stay device-local (an e-ink reader has very different optimal margins than a phone screen).\n"
+"\n"
+"Only meaningful for reflowable documents (EPUB, FB2, MOBI). PDF and similar fixed-layout formats are unaffected."
+msgstr ""
+"在设备之间同步单本书的字体大小、字体、行距、字重和页边距。\n"
+"\n"
+"默认关闭，大多数用户希望每台设备保持本地阅读偏好（电子墨水阅读器的合适边距与手机屏幕相差很大）。\n"
+"\n"
+"仅对可重排文档（EPUB、FB2、MOBI）有意义。PDF 及类似固定版式文档不受影响。"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "Sync interval (minutes)"
+msgstr "同步间隔（分钟）"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "Sync interval: %d min"
+msgstr "同步间隔：%d 分钟"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Sync paused."
+msgstr "同步已暂停。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Sync pre-Syncery data…"
+msgstr "同步 Syncery 之前的数据…"
+
+#: syncery_ui/menu/init.lua
+msgid "Sync setup. Long-press a transport row to open its panel."
+msgstr "同步设置。长按传输方式行以打开其面板。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync the body font size across devices. KOReader renders it screen-aware, so the same size feels similar on different devices."
+msgstr "在设备之间同步正文大小。KOReader 会根据屏幕调整渲染，因此同一数值在不同设备上的观感相近。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync the chosen font across devices.\n"
+"\n"
+"The font must be installed on each device for it to display; otherwise that device falls back to its default."
+msgstr ""
+"在设备之间同步所选字体。\n"
+"\n"
+"必须在每台设备安装该字体才能显示，否则设备会回退为默认字体。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync the font weight / boldness adjustment across devices."
+msgstr "在设备之间同步字重/加粗调整。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync the line spacing across devices."
+msgstr "在设备之间同步行距。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync the page margins across devices.\n"
+"\n"
+"Margins are the most screen-dependent setting: a comfortable margin on a phone is wrong on a large e-reader. Best left off unless your devices have similar screen sizes."
+msgstr ""
+"在设备之间同步页边距。\n"
+"\n"
+"边距最依赖屏幕：手机上舒适的边距在大型阅读器上并不合适。除非设备屏幕尺寸相近，否则最好关闭。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid "Sync-conflict resolved."
+msgstr "同步冲突已解决。"
+
+#: syncery_ui/booklist/init.lua
+msgid "Synced books — %d SDR, %d Synceryhash, %d Pending"
+msgstr "已同步书籍：%d SDR，%d Synceryhash，%d 待处理"
+
+#: syncery_ui/prefetch_locate.lua
+msgid ""
+"Synced from another device — hasn't been opened here yet.\n"
+"\n"
+"If you already have a copy of this book, point Syncery to it."
+msgstr ""
+"已从其他设备同步，但尚未在此处打开。\n"
+"\n"
+"若此设备已有此书副本，请将 Syncery 指向它。"
+
+#: _meta.lua main.lua
+msgid "Syncery"
+msgstr "Syncery"
+
+#: syncery_migration/storage_mode.lua
+msgid "Syncery also has data from your other devices: %s. Run this migration on each of them too."
+msgstr "Syncery 也有来自其他设备的数据：%s。请也在每台设备上运行此迁移。"
+
+#: syncery_ui/wizard.lua
+msgid "Syncery includes them automatically when you open the books."
+msgstr "打开书籍时，Syncery 会自动包含它们。"
+
+#: syncery_update.lua
+msgid ""
+"Syncery is up to date.\n"
+"\n"
+"Installed version: %1"
+msgstr ""
+"Syncery 已是最新版本。\n"
+"\n"
+"已安装版本：%1"
+
+#: main.lua
+msgid ""
+"Syncery settings have been reset.\n"
+"\n"
+"Restart KOReader now for the change to take full effect?"
+msgstr ""
+"Syncery 设置已重置。\n"
+"\n"
+"现在重启 KOReader 以使更改完全生效吗？"
+
+#: syncery_update.lua
+msgid ""
+"Syncery updated to %1.\n"
+"\n"
+"Restart KOReader now to load it?"
+msgstr ""
+"Syncery 已更新至 %1。\n"
+"\n"
+"现在重启 KOReader 以加载它吗？"
+
+#: main.lua
+msgid "Syncery: annotation browser"
+msgstr "Syncery：批注浏览器"
+
+#: main.lua
+msgid "Syncery: jump to another device"
+msgstr "Syncery：跳转到其他设备"
+
+#: main.lua
+msgid "Syncery: progress browser"
+msgstr "Syncery：进度浏览器"
+
+#: main.lua
+msgid "Syncery: undo last jump"
+msgstr "Syncery：撤销上次跳转"
+
+#: main.lua
+#, lua-format
+msgid ""
+"Synceryhash storage mode enabled.\n"
+"\n"
+"Syncery now saves progress and annotations to:\n"
+"  %s\n"
+"\n"
+"Synceryhash mode automatically ensures identical file paths on every device, regardless of the KOReader 'Book metadata location' setting. No extra configuration is required.\n"
+"\n"
+"Make sure Syncthing is configured to sync that folder so your files reach other devices."
+msgstr ""
+"Synceryhash 存储模式已启用。\n"
+"\n"
+"Syncery 现在将进度和批注保存到：\n"
+"  %s\n"
+"\n"
+"无论 KOReader 的“书籍元数据位置”设置如何，Synceryhash 模式都会自动确保每台设备上的文件路径一致。无需额外配置。\n"
+"\n"
+"请确保 Syncthing 已配置为同步该文件夹，使文件能到达其他设备。"
+
+#: main.lua
+#, lua-format
+msgid ""
+"Annotation scan complete.\n"
+"\n"
+"Newly added: %d\n"
+"Already synced: %d\n"
+"No annotations: %d\n"
+"Errors: %d"
+msgstr ""
+"批注扫描完成。\n"
+"\n"
+"新添加：%d\n"
+"已同步：%d\n"
+"无批注：%d\n"
+"错误：%d"
+
+#: main.lua
+msgid "Syncery can't identify this book reliably, so it won't sync across your devices. This usually means the file couldn't be read fully."
+msgstr "Syncery 无法可靠识别此书，因此不会在设备之间同步。通常表示文件无法被完整读取。"
+
+#: main.lua
+msgid "Syncery ran into an unexpected error while opening this book."
+msgstr "Syncery 打开此书时遇到意外错误。"
+
+#: main.lua syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/menu/maintenance_section.lua syncery_ui/progress_browser/init.lua
+#: syncery_ui/status_panel.lua syncery_ui/status_ui/init.lua
+#: syncery_ui/trash/init.lua
+msgid "Close"
+msgstr "关闭"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Syncing %d/%d..."
+msgstr "正在同步 %d/%d…"
+
+#: _meta.lua
+msgid "Syncs your full reading state — position, highlights, notes, bookmarks, and book metadata — across devices as plain JSON, carried by Syncthing or cloud storage (Dropbox/WebDAV/FTP)."
+msgstr "通过 Syncthing 或云存储（Dropbox/WebDAV/FTP）携带的纯 JSON，在设备之间同步完整阅读状态，包括位置、高亮、笔记、书签和书籍元数据。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Syncthing host"
+msgstr "Syncthing 主机"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Syncthing host set to %s."
+msgstr "Syncthing 主机已设为 %s。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"Syncthing is reachable and the API key is valid.\n"
+"\n"
+"Now choose your folder from \"Choose Syncthing folder\"."
+msgstr ""
+"Syncthing 可访问且 API 密钥有效。\n"
+"\n"
+"现在请在“选择 Syncthing 文件夹”中选择文件夹。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "S≠ "
+msgstr "S≠"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "T: "
+msgstr "T："
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Tap a status below to keep it on all your devices."
+msgstr "点击下方的状态，将其保留在所有设备上。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to change the Syncthing GUI host."
+msgstr "点击以更改 Syncthing GUI 主机。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to enter the Syncthing API key."
+msgstr "点击以输入 Syncthing API 密钥。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Text Margin: "
+msgstr "文本边距："
+
+#: syncery_ui/prefetch_locate.lua
+msgid "That file's content doesn't match %s — likely a different edition or copy. Try a different file?"
+msgstr "该文件内容与 %s 不匹配，可能是不同版本或副本。尝试其他文件吗？"
+
+#: syncery_ui/prefetch_locate.lua
+msgid "That file's content doesn't match the synced book — likely a different edition or copy. Try a different file?"
+msgstr "该文件内容与已同步书籍不匹配，可能是不同版本或副本。尝试其他文件吗？"
+
+#: main.lua
+msgid ""
+"The KOSyncthing+ plugin is not installed.\n"
+"\n"
+"Without it, Syncery still merges conflict files in RAM and deletes the extras — but you'll see them briefly in any file manager between sync and merge."
+msgstr ""
+"未安装 KOSyncthing+ 插件。\n"
+"\n"
+"没有它，Syncery 仍会在内存中合并冲突文件并删除多余副本，但在同步和合并之间，你可能会在文件管理器中短暂看到它们。"
+
+#: syncery_update.lua
+msgid "The downloaded file does not look like a plugin archive."
+msgstr "下载的文件不像是插件压缩包。"
+
+#: syncery_ui/jump_toast.lua
+msgid "This Device"
+msgstr "此设备"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "This book is marked with different reading statuses on different devices. Tap to choose which one to keep on all of them."
+msgstr "此书在不同设备上标记了不同的阅读状态。点击选择一个状态并保留到所有设备。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "This book's reading status differs across your devices:"
+msgstr "此书在你的设备之间的阅读状态不同："
+
+#: syncery_ui/menu/per_book_section.lua
+msgid ""
+"This deletes this book's annotations and reading progress on ALL devices.\n"
+"\n"
+"Reading status, rating, and render settings stay — they're the book's own KOReader state.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"这会删除所有设备上此书的批注和阅读进度。\n"
+"\n"
+"阅读状态、评分和渲染设置会保留，它们是书籍自身的 KOReader 状态。\n"
+"\n"
+"确定吗？"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua
+msgid ""
+"This device doesn't have a position for this book yet.\n"
+"\n"
+"If you already have a copy of this book, point Syncery to it."
+msgstr ""
+"此设备尚无此书的位置。\n"
+"\n"
+"若此设备已有此书副本，请将 Syncery 指向它。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "This device has no saved position for this book."
+msgstr "此设备没有保存此书的位置。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "This device has the most recent position (%s)."
+msgstr "此设备拥有最新位置（%s）。"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "This device: %s."
+msgstr "此设备：%s。"
+
+#: syncery_update.lua
+msgid "This release has no downloadable archive."
+msgstr "此版本没有可下载的压缩包。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid ""
+"This shows each book's LAST SYNCED annotations, with the device each one came from.\n"
+"\n"
+"If you tap an annotation, the book opens, and nothing is there: that annotation was changed or deleted and the book has not been reopened since, so this view (and your other devices) still show the previous synced state. Reopening the book reconciles it."
+msgstr ""
+"此处显示每本书最后一次同步的批注，以及每条批注来源的设备。\n"
+"\n"
+"若点击批注后打开书籍却看不到内容：该批注已被修改或删除，而书籍此后尚未重新打开，因此此视图（和其他设备）仍显示先前同步状态。重新打开书籍会协调变更。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "This status difference has already been resolved."
+msgstr "此状态差异已解决。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Title Size: "
+msgstr "标题字号："
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Today"
+msgstr "今天"
+
+#: syncery_ui/menu/init.lua
+msgid "Tools"
+msgstr "工具"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Top Padding: "
+msgstr "顶部内边距："
+
+#: syncery_ui/menu/init.lua
+msgid "Transports"
+msgstr "传输方式"
+
+#: syncery_ui/prefetch_locate.lua
+msgid "Try again"
+msgstr "重试"
+
+#: syncery_ui/wizard.lua
+msgid "Turn on what you want. If you don't choose now or in the What's synced menu, nothing will sync."
+msgstr "开启需要的内容。若现在或在“已同步内容”菜单中没有选择，则不会同步任何内容。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "T≠ "
+msgstr "T≠"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "URL Host: %s"
+msgstr "URL 主机：%s"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Undo last jump"
+msgstr "撤销上次跳转"
+
+#: main.lua syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/progress_browser/init.lua syncery_ui/status_ui/init.lua
+msgid "Unknown"
+msgstr "未知"
+
+#: main.lua
+msgid "Auto-jumped to new position."
+msgstr "已自动跳转到新位置。"
+
+#: main.lua syncery_ui/progress_browser/init.lua syncery_ui/status_ui/init.lua
+msgid "Undo"
+msgstr "撤销"
+
+#: main.lua
+msgid "Nothing to undo."
+msgstr "无可撤销操作。"
+
+#: main.lua
+msgid "Returned to previous position."
+msgstr "已返回之前的位置。"
+
+#: main.lua
+msgid "Handmade TOC uses text positions that only work on reflowable documents (EPUB, FB2). This PDF or image document cannot share a TOC."
+msgstr "手工目录使用仅适用于可重排文档（EPUB、FB2）的文本位置。此 PDF 或图像文档无法共享目录。"
+
+#: main.lua
+msgid "No handmade table of contents found for this book."
+msgstr "未找到此书的手工目录。"
+
+#: main.lua
+msgid "Handmade TOC will sync to other devices on next sync."
+msgstr "手工目录将在下次同步时同步到其他设备。"
+
+#: main.lua
+msgid "Could not save handmade TOC for sync."
+msgstr "无法保存手工目录以供同步。"
+
+#: main.lua
+#, lua-format
+msgid "Syncery: saved at page %d (%.0f%%)"
+msgstr "Syncery：已保存到第 %d 页（%.0f%%）"
+
+#: main.lua
+#, lua-format
+msgid "Synced annotations (%d pulled, %d pushed)"
+msgstr "已同步批注（拉取 %d，推送 %d）"
+
+#: main.lua
+#, lua-format
+msgid "Resolved %d annotation conflict(s)"
+msgstr "已解决 %d 个批注冲突"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Up to date."
+msgstr "已是最新。"
+
+#: syncery_update.lua
+msgid "Update & restart"
+msgstr "更新并重启"
+
+#: syncery_update.lua
+msgid "Update failed."
+msgstr "更新失败。"
+
+#: main.lua
+msgid "Resolved progress conflicts"
+msgstr "已解决阅读进度冲突"
+
+#: main.lua syncery_ui/jump_toast.lua syncery_ui/progress_browser/init.lua
+msgid "Another device"
+msgstr "另一台设备"
+
+#: main.lua syncery_ui/menu/maintenance_section.lua syncery_ui/wizard.lua
+msgid "Syncthing"
+msgstr "Syncthing"
+
+#: main.lua
+msgid ""
+"No network connection.\n"
+"Scans will be retried automatically when you're back online."
+msgstr ""
+"没有网络连接。\n"
+"恢复联网后会自动重试扫描。"
+
+#: main.lua
+msgid "Transport not initialised."
+msgstr "传输方式尚未初始化。"
+
+#: main.lua
+msgid "Quick sync triggered."
+msgstr "已触发快速同步。"
+
+#: main.lua
+msgid "Rescan all"
+msgstr "重新扫描全部"
+
+#: main.lua
+msgid "Scan triggered."
+msgstr "已触发扫描。"
+
+#: main.lua
+msgid "No Syncthing folders configured."
+msgstr "未配置 Syncthing 文件夹。"
+
+#: main.lua syncery_migration/storage_mode.lua
+msgid "Filesystem access unavailable."
+msgstr "文件系统访问不可用。"
+
+#: main.lua
+msgid "No orphaned sync files found."
+msgstr "未找到孤立同步文件。"
+
+#: main.lua
+msgid "Delete"
+msgstr "删除"
+
+#: main.lua
+msgid "Orphan cleanup"
+msgstr "清理孤立文件"
+
+#: main.lua syncery_ui/status_ui/init.lua syncery_ui/trash/init.lua
+msgid "No document open"
+msgstr "未打开文档"
+
+#: main.lua
+msgid "No annotations to delete."
+msgstr "没有要删除的批注。"
+
+#: main.lua
+msgid "Move to Trash"
+msgstr "移至回收站"
+
+#: main.lua
+msgid "Syncery: could not save changes. Annotations not deleted."
+msgstr "Syncery：无法保存变更，批注未删除。"
+
+#: main.lua syncery_ui/booklist/actions.lua
+#: syncery_ui/menu/per_book_section.lua
+msgid "Delete all"
+msgstr "删除全部"
+
+#: main.lua
+#, lua-format
+msgid "%d annotation moved to Trash."
+msgid_plural "%d annotations moved to Trash."
+msgstr[0] "已将 %d 条批注移至回收站。"
+
+#: main.lua
+msgid "No recent activity recorded."
+msgstr "未记录最近活动。"
+
+#: main.lua
+msgid "Recent sync activity (newest first):"
+msgstr "最近同步活动（最新优先）："
+
+#: main.lua
+msgid "Activity log"
+msgstr "活动日志"
+
+#: main.lua
+msgid ""
+"Reset every Syncery setting on this device?\n"
+"\n"
+"The device's Syncery JSON files for books are NOT touched — only this device's local preferences."
+msgstr ""
+"要重置此设备上的所有 Syncery 设置吗？\n"
+"\n"
+"不会改动此设备的书籍 Syncery JSON 文件，只重置本地偏好。"
+
+#: main.lua syncery_ui/booklist/actions.lua
+msgid "Reset"
+msgstr "重置"
+
+#: main.lua
+msgid "Syncery: sync now"
+msgstr "Syncery：立即同步"
+
+#: main.lua
+msgid "Syncery: rescan all folders"
+msgstr "Syncery：重新扫描所有文件夹"
+
+#: main.lua
+msgid "Syncery: show sync status"
+msgstr "Syncery：显示同步状态"
+
+#: syncery_migration/storage_mode.lua
+msgid "No synced books found to migrate."
+msgstr "未找到要迁移的已同步书籍。"
+
+#: syncery_migration/storage_mode.lua
+msgid "Migrating Syncery data…"
+msgstr "正在迁移 Syncery 数据…"
+
+#: syncery_migration/storage_mode.lua
+#, lua-format
+msgid "Migrating Syncery data… (%d done)"
+msgstr "正在迁移 Syncery 数据…（已完成 %d 本）"
+
+#: syncery_migration/storage_mode.lua
+#, lua-format
+msgid "Migration cancelled. %d of %d books processed."
+msgstr "迁移已取消。已处理 %d / %d 本书。"
+
+#: syncery_migration/storage_mode.lua
+#, lua-format
+msgid "Migrated %d book."
+msgid_plural "Migrated %d books."
+msgstr[0] "已迁移 %d 本书。"
+
+#: syncery_migration/storage_mode.lua
+msgid "Migrate books"
+msgstr "迁移书籍"
+
+#: syncery_transports/plugin_sync.lua
+msgid "Uploading %d/%d..."
+msgstr "正在上传 %d/%d…"
+
+#: syncery_ui/menu/db_sync_section.lua
+msgid "Use Syncery's cloud server"
+msgstr "使用 Syncery 的云端服务器"
+
+#: syncery_ui/menu/init.lua
+msgid "Verbose sync logging"
+msgstr "详细同步日志"
+
+#: main.lua
+msgid "Vocab & Statistics not synced: enable the Cloud storage+ plugin."
+msgstr "未同步生词本与统计：请启用 Cloud storage+ 插件。"
+
+#: main.lua syncery_ui/menu/db_sync_section.lua
+msgid "Vocabulary"
+msgstr "生词本"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Wake Wi-Fi for cloud pull on open"
+msgstr "打开时唤醒 Wi-Fi 以从云端拉取"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Wake Wi-Fi for cloud push on close"
+msgstr "关闭时唤醒 Wi-Fi 以推送到云端"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Wake Wi-Fi for cloud push on sleep"
+msgstr "休眠时唤醒 Wi-Fi 以推送到云端"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"What to do when another device reaches a new position in this book:\n"
+"\n"
+"Jump automatically — move to the new position, with a brief [Undo].\n"
+"Ask first — show a tappable note; you choose whether to jump.\n"
+"Never — stay put; this device is never moved by another.\n"
+"\n"
+"Either way you can still jump on demand from \"Jump to another device now…\" below.  Undo the last jump within 60 seconds from Menu → Syncery → This book → Undo last jump."
+msgstr ""
+"当其他设备在此书中到达新位置时的处理方式：\n"
+"\n"
+"自动跳转：移动到新位置，并短暂显示[撤销]。\n"
+"先询问：显示可点击提示，由你决定是否跳转。\n"
+"从不：保持当前位置，此设备不会被其他设备移动。\n"
+"\n"
+"无论如何，仍可在下方“立即跳转到其他设备…”中按需跳转。可在 60 秒内通过 菜单 → Syncery → 此书 → 撤销上次跳转 来撤销上次跳转。"
+
+#: syncery_ui/menu/init.lua
+msgid "When another device's annotations or font & layout arrive while you're reading, offer a [Reload] to apply them now. Off: they apply silently the next time you open the book."
+msgstr "阅读时收到其他设备的批注或字体与版式时，显示[重新加载]以立即应用。关闭时会在下次打开书籍后静默应用。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"When the device goes to sleep while offline, bring Wi-Fi up and push your latest position and annotations to the cloud before it actually sleeps — so they reach the server instead of waiting for the next time you open this book.\n"
+"\n"
+"The sleep screen appears right away, but the device finishes the handover behind it and only then really sleeps, so sleeping can take up to ~30 seconds worst-case while the connection comes up and the push completes.  If we raised Wi-Fi, it is turned back off again afterwards.\n"
+"\n"
+"Unlike closing a book, sleep happens automatically and often (every idle timeout), so waking Wi-Fi each time costs battery — enable only if reliable sync-on-sleep is worth that to you.  Respects your device's \"when network is needed\" setting.  Off by default."
+msgstr ""
+"设备离线休眠时，先唤醒 Wi-Fi 并将最新位置和批注推送到云端，再真正休眠，以便它们抵达服务器而不必等待下次打开此书。\n"
+"\n"
+"休眠界面会立即显示，但设备会在其后完成交接，随后才真正休眠；连接和推送完成时，最坏情况下休眠可能需要约 30 秒。若由本项开启 Wi-Fi，之后会再次关闭。\n"
+"\n"
+"与关闭书籍不同，休眠会自动且频繁发生（每次空闲超时），每次唤醒 Wi-Fi 都会耗电。仅在可靠的休眠同步对你足够重要时开启。遵循设备的“需要网络时”设置。默认关闭。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"When you close a book (or quit KOReader) while offline, bring Wi-Fi up and wait for it before pushing your latest position and annotations to the cloud — so they actually reach the server instead of being silently held back until some later session.\n"
+"\n"
+"Respects your device's \"when network is needed\" setting: it only turns Wi-Fi on if that is set to turn it on automatically (not prompt or ignore).  Off by default.  Closing can pause for up to ~30 seconds worst-case while the connection comes up and the push completes."
+msgstr ""
+"离线关闭书籍（或退出 KOReader）时，唤醒 Wi-Fi 并等待联网，再将最新位置和批注推送到云端，确保它们到达服务器而不是被静默保留到之后的会话。\n"
+"\n"
+"遵循设备的“需要网络时”设置：仅当该设置为自动开启 Wi-Fi 时才会开启（不会提示或忽略）。默认关闭。连接和推送完成时，关闭操作最坏可能暂停约 30 秒。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"When you open a book (or wake the device with one open) while offline, turn Wi-Fi on and pull the latest position and annotations from the cloud — so a device that read further while this one slept can offer its position right away, instead of waiting for the next manual connection.\n"
+"\n"
+"Uses KOReader's standard connection flow: its \"Connecting to Wi-Fi…\" notice shows while the radio comes up, and the pull lands a few seconds after it clears.  Acts only when \"when network is needed\" is set to turn Wi-Fi on automatically — it never asks.  After a failed connection attempt it stays quiet for a few minutes.  Off by default."
+msgstr ""
+"离线打开书籍（或设备打开书籍时唤醒）时，开启 Wi-Fi 并从云端拉取最新位置和批注，使其他设备在本设备休眠时读到更后位置后可立即提供位置，而无需等待下一次手动联网。\n"
+"\n"
+"使用 KOReader 标准连接流程：无线网络启动时会显示“正在连接 Wi-Fi…”，提示消失后数秒完成拉取。仅当“需要网络时”设为自动开启 Wi-Fi 才会执行，从不询问。连接失败后会静默数分钟。默认关闭。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "With Notes Only"
+msgstr "仅含笔记"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Words in annotation notes…"
+msgstr "批注笔记中的词…"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Words in highlighted text…"
+msgstr "高亮文本中的词…"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Words to hide annotation notes…"
+msgstr "要隐藏的批注笔记词语…"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Words to hide highlighted text…"
+msgstr "要隐藏的高亮文本词语…"
+
+#: syncery_ui/menu/init.lua
+msgid "Writes detailed sync events (push/pull decisions, merge results, jump/reload prompts) to debug.txt in the Syncery settings folder — for troubleshooting. Capped at roughly the last 1000 lines. Off by default; turn on only when investigating an issue, takes effect immediately, no restart needed."
+msgstr "将详细同步事件（推送/拉取决策、合并结果、跳转/重新加载提示）写入 Syncery 设置文件夹中的 debug.txt，便于排错。最多保留约 1000 行。默认关闭；仅在排查问题时开启，立即生效，无需重启。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Yesterday"
+msgstr "昨天"
+
+#: syncery_migration/storage_mode.lua
+msgid ""
+"You just migrated your Syncery JSON files.\n"
+"\n"
+"But I also detected that your KOReader metadata.lua files are stored in locations other than your selected one (%s). Here's what I found:\n"
+"%s\n"
+"\n"
+"Syncery doesn't move these files. If you'd like to consolidate them, go to the File Browser and use the menu: ⚙ → Document → Move book metadata."
+msgstr ""
+"你刚迁移了 Syncery JSON 文件。\n"
+"\n"
+"但还检测到 KOReader metadata.lua 文件存储在所选位置（%s）以外。找到以下位置：\n"
+"%s\n"
+"\n"
+"Syncery 不会移动这些文件。若想集中存放，请转到文件浏览器并使用菜单：⚙ → 文档 → 移动书籍元数据。"
+
+#: syncery_ui/wizard.lua
+msgid "You'll choose the folder later from the menu."
+msgstr "稍后可从菜单中选择文件夹。"
+
+#: syncery_migration/storage_mode.lua
+msgid "Your Syncery data is already in the current storage location (%d book). Nothing to migrate."
+msgid_plural "Your Syncery data is already in the current storage location (%d books). Nothing to migrate."
+msgstr[0] "Syncery 数据已位于当前存储位置（%d 本书），无需迁移。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Your personal progress and annotations have been reset for this book."
+msgstr "此书的个人进度和批注已重置。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "No personal data found for this book."
+msgstr "未找到此书的个人数据。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Could not reset all data. Please check the file system."
+msgstr "无法重置全部数据，请检查文件系统。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Local synced data has been deleted. Other devices may restore it later."
+msgstr "本地已同步数据已删除，其他设备可能稍后恢复它。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Could not completely delete data. Some files may remain."
+msgstr "无法完全删除数据，可能仍有部分文件残留。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Migrate this book to current storage mode"
+msgstr "将此书迁移到当前存储模式"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Already in the current storage mode."
+msgstr "已位于当前存储模式。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Book migrated successfully."
+msgstr "书籍迁移成功。"
+
+#: syncery_ui/booklist/actions.lua
+msgid "Migration skipped (book may already be in new location or data unavailable)."
+msgstr "已跳过迁移（书籍可能已在新位置，或数据不可用）。"
+
+#: syncery_ui/booklist/init.lua syncery_ui/booklist/scan.lua
+#, lua-format
+msgid "Scanning books… (%d found)"
+msgstr "正在扫描书籍…（找到 %d 本）"
+
+#: syncery_ui/booklist/init.lua
+msgid "Scanning books…"
+msgstr "正在扫描书籍…"
+
+#: syncery_ui/booklist/init.lua
+msgid "Scan cancelled."
+msgstr "扫描已取消。"
+
+#: syncery_ui/booklist/init.lua
+msgid "No synced books found."
+msgstr "未找到已同步书籍。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+msgid "Z to A (by Date)"
+msgstr "Z 到 A（按日期）"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "an unknown device"
+msgstr "未知设备"
+
+#: syncery_ui/status_section.lua
+msgid "never synced"
+msgstr "从未同步"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/status_panel.lua
+msgid "no backend"
+msgstr "无后端"
+
+#: syncery_ui/jump_toast.lua
+msgid "page %d"
+msgstr "第 %d 页"
+
+#: syncery_ui/progress_browser/init.lua
+msgid "page %s"
+msgstr "第 %s 页"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "paused"
+msgstr "已暂停"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "scanning"
+msgstr "正在扫描"
+
+#: syncery_ui/booklist/init.lua
+msgid "synced just now"
+msgstr "刚刚同步"
+
+#: syncery_ui/booklist/init.lua
+#, lua-format
+msgid "synced %d min ago"
+msgstr "%d 分钟前同步"
+
+#: syncery_ui/booklist/init.lua
+#, lua-format
+msgid "synced %d hr ago"
+msgstr "%d 小时前同步"
+
+#: syncery_ui/booklist/init.lua
+#, lua-format
+msgid "synced %d days ago"
+msgstr "%d 天前同步"
+
+#: syncery_ui/booklist/init.lua
+msgid "Migrate all books to current storage mode"
+msgstr "将所有书籍迁移到当前存储模式"
+
+#: syncery_ui/booklist/init.lua syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Move all Syncery data from the previous storage location to the current one?\n"
+"\n"
+"Books already in the new location will be skipped."
+msgstr ""
+"要将所有 Syncery 数据从先前存储位置移到当前位置吗？\n"
+"\n"
+"已在新位置的书籍会被跳过。"
+
+#: syncery_ui/booklist/init.lua syncery_ui/menu/maintenance_section.lua
+msgid "Migrate"
+msgstr "迁移"
+
+#: main.lua syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/booklist/init.lua syncery_ui/booklist/scan.lua
+#: syncery_ui/menu/_helpers.lua syncery_ui/menu/annotations_section.lua
+#: syncery_ui/menu/maintenance_section.lua syncery_ui/menu/per_book_section.lua
+#: syncery_ui/menu/transport_section.lua syncery_ui/prefetch_locate.lua
+msgid "Cancel"
+msgstr "取消"
+
+#: syncery_ui/booklist/init.lua
+#, lua-format
+msgid "Synced books — %d SDR, %d Synceryhash"
+msgstr "已同步书籍：%d SDR，%d Synceryhash"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Scan"
+msgstr "扫描"
+
+#: syncery_ui/booklist/scan.lua
+msgid "Invalid directory."
+msgstr "无效目录。"
+
+#: syncery_ui/booklist/scan.lua
+msgid ""
+"Syncery couldn't find your synced books automatically.\n"
+"\n"
+"Where should it look for synced book data?"
+msgstr ""
+"Syncery 无法自动找到已同步书籍。\n"
+"\n"
+"应在哪里查找已同步书籍数据？"
+
+#: syncery_ui/booklist/scan.lua
+msgid "Browse for folder"
+msgstr "浏览文件夹"
+
+#: syncery_ui/booklist/scan.lua
+msgid "KOReader metadata folder"
+msgstr "KOReader 元数据文件夹"
+
+#: syncery_ui/booklist/scan.lua
+msgid "Book "
+msgstr "书籍"
+
+#: syncery_ui/jump_toast.lua
+#, lua-format
+msgid "%s is at a new position"
+msgstr "%s 位于新位置"
+
+#: syncery_ui/jump_toast.lua
+msgid "Jump"
+msgstr "跳转"
+
+#: syncery_ui/menu/_helpers.lua
+#, lua-format
+msgid ""
+"Syncery encountered an unexpected error.\n"
+"\n"
+"Action: %s\n"
+"Details: %s"
+msgstr ""
+"Syncery 遇到意外错误。\n"
+"\n"
+"操作：%s\n"
+"详细信息：%s"
+
+#: syncery_ui/menu/_helpers.lua
+msgid ""
+"No network connection.\n"
+"Connect to the network, then try again."
+msgstr ""
+"没有网络连接。\n"
+"连接网络后再试。"
+
+#: syncery_ui/menu/_helpers.lua
+msgid "Enable the master switch first to control this option."
+msgstr "请先启用总开关以控制此选项。"
+
+#: syncery_ui/menu/_helpers.lua syncery_ui/menu/annotations_section.lua
+#: syncery_ui/menu/maintenance_section.lua
+#: syncery_ui/menu/transport_section.lua
+msgid "Save"
+msgstr "保存"
+
+#: syncery_ui/menu/_helpers.lua
+#, lua-format
+msgid "Set to %d %s."
+msgstr "设为 %d %s。"
+
+#: syncery_ui/menu/_helpers.lua
+#, lua-format
+msgid "Set to %d."
+msgstr "设为 %d。"
+
+#: syncery_ui/menu/_helpers.lua
+#, lua-format
+msgid "Please enter a number between %d and %d."
+msgstr "请输入 %d 到 %d 之间的数字。"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid "Deep clean – permanently erase all book data…"
+msgstr "深度清理：永久擦除所有书籍数据…"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid "Open a book first — deep clean operates on the current book."
+msgstr "请先打开一本书，深度清理仅作用于当前书籍。"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid "Tap to permanently delete the Syncery JSON files for this book."
+msgstr "点击以永久删除此书的 Syncery JSON 文件。"
+
+#: main.lua syncery_ui/menu/advanced_section.lua
+#: syncery_ui/menu/annotations_section.lua syncery_ui/menu/per_book_section.lua
+msgid "No document open."
+msgstr "未打开文档。"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid ""
+"This will permanently erase Syncery JSON files for this book.\n"
+"\n"
+"Your reading progress and all annotations (including deleted ones) will be lost forever.\n"
+"\n"
+"Are you sure?"
+msgstr ""
+"这将永久擦除此书的 Syncery JSON 文件。\n"
+"\n"
+"阅读进度和所有批注（包括已删除的）将永久丢失。\n"
+"\n"
+"确定吗？"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid "Delete files"
+msgstr "删除文件"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid "Syncery JSON files have been permanently deleted."
+msgstr "Syncery JSON 文件已永久删除。"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid ""
+"Erase every Syncery preference on this device (transports, what-to-sync toggles, storage mode, device name).\n"
+"\n"
+"The JSON files next to your books are NOT touched — only this device's settings. Restart KOReader afterwards."
+msgstr ""
+"擦除本设备上的所有 Syncery 偏好（传输方式、同步内容开关、存储模式、设备名称）。\n"
+"\n"
+"书籍旁的 JSON 文件不会改动，只重置本设备设置。之后请重启 KOReader。"
+
+#: syncery_ui/menu/advanced_section.lua
+msgid "Reset all Syncery settings…"
+msgstr "重置所有 Syncery 设置…"
+
+#: syncery_ui/menu/annotations_section.lua
+#, lua-format
+msgid ""
+"Comma-separated extensions to sync, or * for every format.\n"
+"\n"
+"Examples:\n"
+"  *   (all formats — default)\n"
+"  pdf, epub   (only these two)\n"
+"  epub, mobi, fb2\n"
+"\n"
+"Recognised: %s"
+msgstr ""
+"以逗号分隔要同步的扩展名，或使用 * 表示所有格式。\n"
+"\n"
+"示例：\n"
+"  *   （所有格式，默认）\n"
+"  pdf, epub   （仅这两种）\n"
+"  epub, mobi, fb2\n"
+"\n"
+"已识别：%s"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "File types to sync"
+msgstr "要同步的文件类型"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Reset to *"
+msgstr "重置为 *"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Reset: all file types will be synced."
+msgstr "已重置：将同步所有文件类型。"
+
+#: syncery_ui/menu/annotations_section.lua
+#, lua-format
+msgid ""
+"Saved: %s\n"
+"\n"
+"Note: unrecognised extension(s) kept as-is: %s"
+msgstr ""
+"已保存：%s\n"
+"\n"
+"注意：未识别的扩展名保持不变：%s"
+
+#: syncery_ui/menu/annotations_section.lua
+#, lua-format
+msgid "Saved: sync %s files."
+msgstr "已保存：同步 %s 文件。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "highlights"
+msgstr "高亮"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "notes"
+msgstr "笔记"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "bookmarks"
+msgstr "书签"
+
+#: syncery_ui/menu/annotations_section.lua syncery_ui/status_panel.lua
+msgid "status"
+msgstr "状态"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "rating"
+msgstr "评分"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "collections"
+msgstr "收藏夹"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "custom"
+msgstr "自定义"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "TOC"
+msgstr "目录"
+
+#: syncery_ui/menu/annotations_section.lua
+#: syncery_ui/menu/transport_section.lua
+msgid "off"
+msgstr "关闭"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "none enabled"
+msgstr "未启用任何项"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Trash Bin (deleted annotations)…"
+msgstr "回收站（已删除的批注）…"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Open a book first — the Trash Bin shows that book's deleted annotations."
+msgstr "请先打开一本书，回收站显示该书已删除的批注。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync text highlights across devices.\n"
+"\n"
+"Outbound filter only — highlights already received from other devices are never removed even when this is off."
+msgstr ""
+"在设备之间同步文本高亮。\n"
+"\n"
+"仅为发送筛选：即使关闭，也绝不会删除已从其他设备收到的高亮。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync annotation notes across devices.\n"
+"\n"
+"Outbound filter only — notes already received from other devices are never removed even when this is off."
+msgstr ""
+"在设备之间同步批注笔记。\n"
+"\n"
+"仅为发送筛选：即使关闭，也绝不会删除已从其他设备收到的笔记。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync bookmarks across devices.\n"
+"\n"
+"Outbound filter only — bookmarks already received from other devices are never removed even when this is off."
+msgstr ""
+"在设备之间同步书签。\n"
+"\n"
+"仅为发送筛选：即使关闭，也绝不会删除已从其他设备收到的书签。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync annotations"
+msgstr "同步批注"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Master switch for all annotation syncing. Turn off to stop syncing highlights, notes, and bookmarks."
+msgstr "所有批注同步的总开关。关闭可停止同步高亮、笔记和书签。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "syncing"
+msgstr "正在同步"
+
+#: syncery_migration/storage_mode.lua
+msgid "this book"
+msgstr "此书"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/status_panel.lua
+msgid "unsupported"
+msgstr "不支持"
+
+#: syncery_migration/storage_mode.lua
+msgid "• %d in %s"
+msgstr "• %s 中的 %d"
+
+#: main.lua
+msgid "…and %d more"
+msgstr "…及其他 %d 项"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "── Choose which settings to sync ──"
+msgstr "── 选择要同步的设置 ──"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "── Sync specific types ──"
+msgstr "── 同步特定类型 ──"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"These filters control which annotation types are saved and synced.\n"
+"\n"
+"They only take effect when the master switch above is enabled."
+msgstr ""
+"这些筛选条件控制要保存和同步的批注类型。\n"
+"\n"
+"仅在启用上方总开关时生效。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Highlights"
+msgstr "高亮"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Notes"
+msgstr "笔记"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Bookmarks"
+msgstr "书签"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "── Annotation maintenance ──"
+msgstr "── 批注维护 ──"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Tools for managing the annotations stored in Syncery's JSON file."
+msgstr "用于管理存储在 Syncery JSON 文件中批注的工具。"
+
+#: syncery_ui/menu/annotations_section.lua
+#, lua-format
+msgid "Tombstone retention: %d days"
+msgstr "删除标记保留期：%d 天"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Number of days deleted annotations stay in Trash before being permanently removed.\n"
+"\n"
+"Longer period gives more time for sync, shorter saves space."
+msgstr ""
+"已删除批注在回收站保留多少天后永久移除。\n"
+"\n"
+"更长的时间为同步提供更多余量，较短则节省空间。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Tombstone retention (days)"
+msgstr "删除标记保留期（天）"
+
+#: syncery_ui/menu/annotations_section.lua
+#, lua-format
+msgid "Tombstone retention set to %d days."
+msgstr "删除标记保留期已设为 %d 天。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Please enter a number between 1 and 365."
+msgstr "请输入 1 到 365 之间的数字。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync book metadata"
+msgstr "同步书籍元数据"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "── Choose which metadata to sync ──"
+msgstr "── 选择要同步的元数据 ──"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "These fields are synced only when the master switch above is enabled."
+msgstr "仅在启用上方总开关时同步这些字段。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Book status"
+msgstr "书籍状态"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync the book's status (Finished, Reading, On Hold, etc.) across devices."
+msgstr "在设备之间同步书籍状态（已读完、阅读中、暂停等）。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Rating"
+msgstr "评分"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync the star rating (0–5) across devices."
+msgstr "在设备之间同步星级评分（0–5）。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Collection membership"
+msgstr "收藏夹成员资格"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Add or remove this book from Collections to match the most-recently-updated device."
+msgstr "添加或移除此书的收藏夹，以匹配最近更新的设备。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Custom title / authors / series"
+msgstr "自定义标题 / 作者 / 系列"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync user-edited book information (custom title, authors, series, language) across devices.\n"
+"\n"
+"Disabled by default — turn this on only if you actually edit book metadata manually on one device and want those edits to reach the others. Uses a timestamp to resolve conflicts: the device that edited most recently wins."
+msgstr ""
+"在设备之间同步用户编辑的书籍信息（自定义标题、作者、系列、语言）。\n"
+"\n"
+"默认关闭，仅在确实手动编辑某台设备上的书籍元数据并希望同步到其他设备时开启。使用时间戳解决冲突：最近编辑的设备优先。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Sync highlights, notes, and bookmarks across devices.\n"
+"\n"
+"Open this submenu to enable/disable annotation syncing entirely, or control each type individually."
+msgstr ""
+"在设备之间同步高亮、笔记和书签。\n"
+"\n"
+"打开此子菜单可完全启用/禁用批注同步，或单独控制每种类型。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/menu/annotations_section.lua syncery_ui/wizard.lua
+msgid "Annotations"
+msgstr "批注"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Sync the per-book summary note you can leave from the book's metadata screen.  Off by default — most people don't use it, and the field is small enough that adding it to sync increases merge surface area without much benefit."
+msgstr "同步可在书籍元数据页面留下的每本书摘要笔记。默认关闭，大多数人不会使用它；字段较小，加入同步会增加合并范围但收益有限。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid ""
+"Restrict syncing to certain file extensions, or use * for every format (the default).\n"
+"\n"
+"Useful if you keep non-book files in the same folder and want Syncery to ignore them."
+msgstr ""
+"将同步限制为特定文件扩展名，或使用 * 表示所有格式（默认）。\n"
+"\n"
+"若同一文件夹内有非书籍文件且希望 Syncery 忽略它们，此项很有用。"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Book metadata"
+msgstr "书籍元数据"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Per-book summary note"
+msgstr "每本书摘要笔记"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "File types: all formats  (*)"
+msgstr "文件类型：所有格式（*）"
+
+#: syncery_ui/menu/annotations_section.lua
+#, lua-format
+msgid "File types: %s"
+msgstr "文件类型：%s"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "Adapt highlight style to this device"
+msgstr "将高亮样式适配到此设备"
+
+#: syncery_ui/menu/init.lua syncery_ui/menu/maintenance_section.lua
+msgid "Synceryhash"
+msgstr "Synceryhash"
+
+#: syncery_ui/menu/init.lua
+msgid "SDR sidecar"
+msgstr "SDR 附属文件"
+
+#: syncery_ui/menu/init.lua
+#, lua-format
+msgid "Storage mode: %s"
+msgstr "存储模式：%s"
+
+#: syncery_ui/menu/init.lua
+msgid "SDR keeps files in each book's sidecar folder; Synceryhash keeps them by content so they survive renames."
+msgstr "SDR 将文件保存在每本书的附属文件夹中；Synceryhash 按内容保存，因此重命名后仍可保留。"
+
+#: syncery_ui/menu/init.lua
+msgid "Choose where Syncery stores its JSON files: SDR sidecars or a Synceryhash directory."
+msgstr "选择 Syncery 存储 JSON 文件的位置：SDR 附属文件或 Synceryhash 文件夹。"
+
+#: syncery_ui/menu/init.lua
+#, lua-format
+msgid "This device: %s"
+msgstr "此设备：%s"
+
+#: syncery_ui/menu/init.lua
+msgid "Rename this device or view its ID."
+msgstr "重命名此设备或查看其 ID。"
+
+#: syncery_ui/menu/init.lua
+msgid "The name other devices see for this one, and its unique ID."
+msgstr "其他设备看到的此设备名称及其唯一 ID。"
+
+#: syncery_ui/menu/init.lua
+msgid "Delete and reset"
+msgstr "删除与重置"
+
+#: syncery_ui/menu/init.lua
+msgid "Destructive operations: deep clean this book's files, or reset all Syncery settings."
+msgstr "破坏性操作：深度清理此书文件，或重置所有 Syncery 设置。"
+
+#: syncery_ui/menu/init.lua
+msgid "Deep clean (permanently delete this book's JSON files) and reset-all-settings live here. Each confirms before acting."
+msgstr "“深度清理”（永久删除此书 JSON 文件）和“重置所有设置”位于此处。每项操作前都会确认。"
+
+#: syncery_ui/menu/init.lua syncery_ui/wizard.lua
+msgid "progress"
+msgstr "进度"
+
+#: syncery_ui/menu/init.lua syncery_ui/wizard.lua
+msgid "annotations"
+msgstr "批注"
+
+#: syncery_ui/menu/init.lua
+msgid "metadata"
+msgstr "元数据"
+
+#: syncery_ui/menu/init.lua
+msgid "What's synced (nothing yet)"
+msgstr "已同步内容（尚未启用）"
+
+#: syncery_ui/menu/init.lua
+msgid "What's synced (all)"
+msgstr "已同步内容（全部）"
+
+#: syncery_ui/menu/init.lua
+#, lua-format
+msgid "What's synced (%s)"
+msgstr "已同步内容（%s）"
+
+#: syncery_ui/menu/init.lua
+msgid "Choose which data Syncery saves and syncs: progress, annotations, book metadata, and the rarer content types."
+msgstr "选择 Syncery 要保存和同步的数据：进度、批注、书籍元数据及较少使用的内容类型。"
+
+#: syncery_ui/menu/init.lua
+msgid "Choose what Syncery saves and syncs. The everyday types are shown directly; the rarer ones live under 'Other content types'."
+msgstr "选择 Syncery 要保存和同步的内容。常用类型直接显示，较少使用的类型位于“其他内容类型”下。"
+
+#: syncery_ui/menu/init.lua
+msgid "This book"
+msgstr "此书"
+
+#: syncery_ui/menu/init.lua
+msgid "Per-book actions for the open book."
+msgstr "对已打开书籍执行的操作。"
+
+#: syncery_ui/menu/init.lua syncery_ui/menu/transport_section.lua
+msgid "Advanced"
+msgstr "高级"
+
+#: syncery_ui/menu/init.lua
+msgid "Storage mode, this device, how Syncery works, and delete/reset. Rarely needed."
+msgstr "存储模式、此设备、Syncery 的工作方式以及删除/重置。很少需要。"
+
+#: syncery_ui/menu/init.lua
+msgid "One predictable home for the rare set-once and diagnostic items, plus destructive operations."
+msgstr "集中放置少量的一次性设置、诊断项和破坏性操作。"
+
+#: syncery_ui/menu/maintenance_section.lua syncery_ui/wizard.lua
+msgid "Name this device"
+msgstr "命名此设备"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"This label appears on other devices when they show your progress.\n"
+"Max 50 characters."
+msgstr ""
+"此名称会在其他设备显示你的进度时出现。\n"
+"最多 50 个字符。"
+
+#: syncery_ui/menu/maintenance_section.lua
+#, lua-format
+msgid "Device name set to: %s"
+msgstr "设备名称已设为：%s"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"The label that appears on other devices when they display your reading progress.  Max 50 characters.\n"
+"\n"
+"Choose something descriptive so you can tell your devices apart at a glance — e.g. \"Kindle Paperwhite\" or \"Living room Kobo\"."
+msgstr ""
+"其他设备显示阅读进度时出现的名称，最多 50 个字符。\n"
+"\n"
+"请选择易于区分的描述性名称，例如“Kindle Paperwhite”或“客厅 Kobo”。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"A unique identifier assigned to this device when Syncery first ran.\n"
+"\n"
+"This ID is embedded in every sync file so other devices know which entry belongs to whom.  It is read-only — tap to see the full value or a QR code you can scan from another device."
+msgstr ""
+"Syncery 首次运行时分配给此设备的唯一标识符。\n"
+"\n"
+"此 ID 嵌入每个同步文件，使其他设备知道条目归属。它是只读的，点击可查看完整值或用其他设备扫描的二维码。"
+
+#: syncery_ui/menu/maintenance_section.lua syncery_ui/wizard.lua
+#, lua-format
+msgid "Device name: %s"
+msgstr "设备名称：%s"
+
+#: syncery_ui/menu/maintenance_section.lua
+#, lua-format
+msgid "Device ID: %s…"
+msgstr "设备 ID：%s…"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "No device ID assigned yet."
+msgstr "尚未分配设备 ID。"
+
+#: syncery_ui/menu/maintenance_section.lua
+#, lua-format
+msgid ""
+"Device ID:\n"
+"%s"
+msgstr ""
+"设备 ID：\n"
+"%s"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Show QR code"
+msgstr "显示二维码"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Store Syncery JSON files in the book's metadata folder (determined by KOReader's 'Book metadata location' setting).\n"
+"\n"
+"Usually this is a .sdr sidecar folder next to the book. If you changed the metadata location in KOReader, Syncery will follow it.\n"
+"\n"
+"For reliable syncing, all devices using SDR mode must use the same 'Book metadata location' setting (☰ → Document → Book metadata location). If the settings differ, devices will not see each other's progress or annotations.\n"
+"\n"
+"Note: Renaming or moving the book without its metadata folder can break the link to your progress and annotations."
+msgstr ""
+"将 Syncery JSON 文件存储在书籍元数据文件夹中（由 KOReader 的“书籍元数据位置”设置决定）。\n"
+"\n"
+"通常是书籍旁的 .sdr 附属文件夹。若在 KOReader 中更改元数据位置，Syncery 会随之使用。\n"
+"\n"
+"为可靠同步，所有使用 SDR 模式的设备必须使用相同的“书籍元数据位置”设置（☰ → 文档 → 书籍元数据位置）。设置不同，设备将无法看到彼此的进度或批注。\n"
+"\n"
+"注意：重命名或移动书籍而未移动其元数据文件夹，可能会断开与进度和批注的关联。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Store Syncery JSON files in a central folder named after a content hash of the book. This keeps your data safe when you rename or reorganise your book files.\n"
+"\n"
+"Synceryhash mode automatically ensures identical file paths on every device, regardless of the KOReader 'Book metadata location' setting. No extra configuration is required for reliable cross‑device sync.\n"
+"\n"
+"Files live under the Syncery state directory, e.g. koreader/settings/syncery/synceryhash/<md5>/.\n"
+"\n"
+"Make sure your sync tool (Syncthing, etc.) watches that central folder so your progress reaches other devices."
+msgstr ""
+"将 Syncery JSON 文件存储在以书籍内容哈希命名的中央文件夹中。重命名或整理书籍文件后，数据仍会安全保留。\n"
+"\n"
+"无论 KOReader 的“书籍元数据位置”设置如何，Synceryhash 模式都会自动确保每台设备上的文件路径一致，无需额外配置即可可靠跨设备同步。\n"
+"\n"
+"文件位于 Syncery 状态目录下，例如 koreader/settings/syncery/synceryhash/<md5>/。\n"
+"\n"
+"请确保同步工具（Syncthing 等）监视该中央文件夹，以便进度到达其他设备。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Book metadata folder (SDR)"
+msgstr "书籍元数据文件夹（SDR）"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Switched to book metadata folder mode.\n"
+"\n"
+"Files will be migrated the next time you open a book."
+msgstr ""
+"已切换到书籍元数据文件夹模式。\n"
+"\n"
+"下次打开书籍时将迁移文件。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Migrate all books to this storage mode…"
+msgstr "将所有书籍迁移到此存储模式…"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Move all existing Syncery data from the previous storage location to the current one. Books already in the new location are skipped."
+msgstr "将所有现有 Syncery 数据从先前存储位置移到当前位置。已在新位置的书籍会被跳过。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Remove any leftover temporary upload files from the cloud staging directory.\n"
+"\n"
+"Syncery uses this directory while preparing files for Dropbox / WebDAV / FTP. Files there are normally removed right after upload — if any remain, it usually means a previous upload was interrupted by a crash or power loss."
+msgstr ""
+"移除云端暂存目录中遗留的临时上传文件。\n"
+"\n"
+"Syncery 在为 Dropbox / WebDAV / FTP 准备文件时使用此目录。文件通常会在上传后立即移除，若有残留，通常是先前上传被崩溃或断电中断。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Clean cloud upload staging"
+msgstr "清理云端上传暂存区"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Tap to remove any temporary files Syncery left behind while preparing cloud uploads. No data is uploaded or downloaded."
+msgstr "点击以移除 Syncery 准备云端上传时遗留的临时文件。不会上传或下载数据。"
+
+#: syncery_ui/menu/maintenance_section.lua
+#, lua-format
+msgid "Removed %d leftover staging file(s)."
+msgstr "已移除 %d 个遗留暂存文件。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Staging directory was already empty."
+msgstr "暂存目录本来就是空的。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Book data save interval (seconds)"
+msgstr "书籍数据保存间隔（秒）"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "How often reading progress and annotations are saved while reading. Saved on book close and on sleep too, so a larger value here just saves battery."
+msgstr "阅读时多久保存一次阅读进度和批注。关闭书籍和休眠时也会保存，因此增大此数值只会节省电量。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "s"
+msgstr "秒"
+
+#: syncery_ui/menu/maintenance_section.lua
+#, lua-format
+msgid "Book data save interval: %d s"
+msgstr "书籍数据保存间隔：%d 秒"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Trigger an immediate Syncthing scan on every configured folder so changes are picked up without waiting for the next automatic cycle.\n"
+"\n"
+"Wi-Fi and a valid API key are required."
+msgstr ""
+"立即触发每个已配置文件夹的 Syncthing 扫描，使变更无需等待下一自动周期即可被识别。\n"
+"\n"
+"需要 Wi-Fi 和有效的 API 密钥。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid ""
+"Show an in-memory log of the sync events that happened during this reading session.\n"
+"\n"
+"Useful for confirming that saves and Syncthing scans fired as expected, or for diagnosing why something did not sync."
+msgstr ""
+"显示本次阅读会话中发生的同步事件内存日志。\n"
+"\n"
+"可用于确认保存和 Syncthing 扫描是否如预期触发，或诊断未同步的原因。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Maintenance actions for the Syncthing integration."
+msgstr "Syncthing 集成的维护操作。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Rescan all Syncthing folders"
+msgstr "重新扫描所有 Syncthing 文件夹"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Remove orphaned sync files…"
+msgstr "移除孤立同步文件…"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Maintenance actions for the cloud upload pipeline."
+msgstr "云端上传流程的维护操作。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Recent sync activity"
+msgstr "最近同步活动"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Manage all synced books…"
+msgstr "管理所有已同步书籍…"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "View a list of all books that have Syncery data and selectively reset or delete their synced information."
+msgstr "查看所有具有 Syncery 数据的书籍列表，并选择性重置或删除其已同步信息。"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "Tap to see a list of synced books and manage their data."
+msgstr "点击以查看已同步书籍列表并管理其数据。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Delete annotations only (keeps progress)"
+msgstr "仅删除批注（保留进度）"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Open a book first — this clears the current book's annotations."
+msgstr "请先打开一本书，此操作会清除当前书籍的批注。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Tap to move this book's annotations to Trash, keeping your progress."
+msgstr "点击以将此书批注移至回收站，同时保留进度。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Full reset – mark all as deleted (all devices)"
+msgstr "完全重置：标记所有内容为已删除（所有设备）"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Open a book first — this reset operates on the current book."
+msgstr "请先打开一本书，此重置仅作用于当前书籍。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Tap to mark all synced data for this book as deleted on every device."
+msgstr "点击以将此书的所有已同步数据在每台设备上标记为已删除。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "Could not update annotations file."
+msgstr "无法更新批注文件。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "All synced data has been marked as deleted."
+msgstr "所有已同步数据均已标记为已删除。"
+
+#: syncery_ui/menu/status_section.lua
+msgid " — tap to resolve"
+msgstr "：点击以解决"
+
+#: syncery_ui/menu/status_section.lua
+msgid "When a transport needs attention, tap to open its setup and resolve the issue."
+msgstr "当传输方式需要处理时，点击以打开其设置并解决问题。"
+
+#: syncery_ui/menu/status_section.lua
+msgid "Sync this book"
+msgstr "同步此书"
+
+#: syncery_ui/menu/status_section.lua
+msgid ""
+"When enabled, Syncery syncs reading progress and annotations for this book across devices.\n"
+"\n"
+"Uncheck to exclude this book — useful if you want your reading activity kept to this device only, or for books you are reading temporarily."
+msgstr ""
+"启用后，Syncery 会在设备之间同步此书的阅读进度和批注。\n"
+"\n"
+"取消勾选可排除此书，适合仅想将阅读活动保留在此设备，或临时阅读的书籍。"
+
+#: syncery_ui/menu/status_section.lua
+msgid "No document is open — open a book first to control its sync setting."
+msgstr "没有打开文档，请先打开一本书以控制其同步设置。"
+
+#: syncery_ui/menu/status_section.lua
+msgid "Enable to sync this book's progress and annotations. Disable to exclude it."
+msgstr "启用以同步此书的进度和批注；禁用以排除此书。"
+
+#: syncery_ui/menu/status_section.lua
+msgid "Syncing enabled for this book."
+msgstr "已为此书启用同步。"
+
+#: syncery_ui/menu/status_section.lua
+msgid "Syncing disabled for this book."
+msgstr "已为此书禁用同步。"
+
+#: syncery_ui/menu/status_section.lua
+msgid "Syncing…"
+msgstr "正在同步…"
+
+#: syncery_ui/menu/status_section.lua syncery_ui/status_section.lua
+msgid "Sync now"
+msgstr "立即同步"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/wizard.lua
+msgid "Syncthing API key"
+msgstr "Syncthing API 密钥"
+
+#: syncery_ui/wizard.lua
+msgid "Find it in Syncthing → Settings → GUI → API Key."
+msgstr "在 Syncthing → 设置 → GUI → API 密钥中找到它。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Looking for Syncthing folders…"
+msgstr "正在查找 Syncthing 文件夹…"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"No API key set.\n"
+"Enter the Syncthing API key first."
+msgstr ""
+"未设置 API 密钥。\n"
+"请先输入 Syncthing API 密钥。"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/wizard_presenter.lua
+msgid ""
+"API key rejected.\n"
+"Check Syncthing → Settings → GUI → API Key."
+msgstr ""
+"API 密钥被拒绝。\n"
+"请检查 Syncthing → 设置 → GUI → API 密钥。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Connected, but Syncthing reports no folders to sync."
+msgstr "已连接，但 Syncthing 未报告可同步的文件夹。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Testing Syncthing connection…"
+msgstr "正在测试 Syncthing 连接…"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/wizard_presenter.lua
+msgid "Syncthing is reachable and the API key is valid."
+msgstr "Syncthing 可访问且 API 密钥有效。"
+
+#: syncery_ui/menu/transport_section.lua
+#, lua-format
+msgid "Unexpected HTTP %d response from Syncthing."
+msgstr "Syncthing 返回意外的 HTTP %d 响应。"
+
+#: syncery_ui/wizard_presenter.lua
+msgid "Next"
+msgstr "下一步"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/wizard_presenter.lua
+msgid "Back"
+msgstr "上一步"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/wizard_presenter.lua
+msgid "Test connection"
+msgstr "测试连接"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/wizard_presenter.lua
+msgid ""
+"No network connection.\n"
+"Your settings are saved — test the connection once you're back online."
+msgstr ""
+"没有网络连接。\n"
+"设置已保存，恢复联网后再测试连接。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Testing connection…"
+msgstr "正在测试连接…"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"No API key set.\n"
+"Restart the wizard and enter an API key."
+msgstr ""
+"未设置 API 密钥。\n"
+"请重启向导并输入 API 密钥。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Cloud storage picker is unavailable in this KOReader build."
+msgstr "此 KOReader 版本中云存储选择器不可用。"
+
+#: syncery_ui/menu/transport_section.lua
+#, lua-format
+msgid ""
+"Cloud destination set: %s.\n"
+"Restart KOReader if uploads don't appear."
+msgstr ""
+"云端目标已设为：%s。\n"
+"若未显示上传，请重启 KOReader。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"Clear the saved cloud destination?\n"
+"\n"
+"No files are deleted from the cloud — only this device's connection setting."
+msgstr ""
+"要清除已保存的云端目标吗？\n"
+"\n"
+"不会删除云端文件，只清除此设备的连接设置。"
+
+#: syncery_ui/annotation_viewer/viewer_lifted.lua
+#: syncery_ui/booklist/actions.lua syncery_ui/menu/transport_section.lua
+msgid "Clear"
+msgstr "清除"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Cloud destination cleared."
+msgstr "云端目标已清除。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Cloud upload delay (seconds)"
+msgstr "云端上传延迟（秒）"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Checking cloud settings…"
+msgstr "正在检查云端设置…"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"Cloud destination is configured.\n"
+"Syncery will verify it can reach the server on the next sync."
+msgstr ""
+"已配置云端目标。\n"
+"Syncery 将在下次同步时验证能否连接服务器。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"No cloud destination set.\n"
+"Tap 'Pick destination' first."
+msgstr ""
+"未设置云端目标。\n"
+"请先点击“选择目标”。"
+
+#: syncery_ui/menu/transport_section.lua
+#, lua-format
+msgid "Destination: %s"
+msgstr "目标：%s"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Destination: (not set)"
+msgstr "目标：（未设置）"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Where Syncery uploads JSON files. Tap to pick or change."
+msgstr "Syncery 上传 JSON 文件的位置。点击以选择或更改。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to pick or change the cloud destination (Dropbox / WebDAV / FTP)."
+msgstr "点击以选择或更改云端目标（Dropbox / WebDAV / FTP）。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Clear destination"
+msgstr "清除目标"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Forget the saved destination on this device only."
+msgstr "仅在此设备上忘记已保存的目标。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "There is no saved destination to clear yet."
+msgstr "尚无已保存的目标可清除。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Removes the saved server. No files are deleted."
+msgstr "移除已保存的服务器，不会删除文件。"
+
+#: syncery_ui/menu/transport_section.lua
+#, lua-format
+msgid "Upload delay: %d s"
+msgstr "上传延迟：%d 秒"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Debounce window after a save before uploading. Higher values protect rate-limited providers."
+msgstr "保存后到上传前的防抖等待时间。较大的值可保护有频率限制的服务商。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to change how long Syncery waits after a save before uploading to the cloud."
+msgstr "点击以更改 Syncery 保存后上传到云端前的等待时间。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Check that a cloud destination is set. Reachability is verified on the next sync."
+msgstr "检查是否已设置云端目标，可访问性将在下次同步时验证。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Pick a destination first."
+msgstr "请先选择目标。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to check the cloud destination is configured."
+msgstr "点击以检查云端目标是否已配置。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Choose Syncthing folder"
+msgstr "选择 Syncthing 文件夹"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"Ask Syncthing which folders it has and pick the one to sync, so you don't have to type the folder ID by hand.\n"
+"\n"
+"Works with any Syncthing reachable over its web address."
+msgstr ""
+"询问 Syncthing 有哪些文件夹并选择要同步的一个，无需手动输入文件夹 ID。\n"
+"\n"
+"适用于可通过网页地址访问的任何 Syncthing。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to choose which Syncthing folder to sync."
+msgstr "点击以选择要同步的 Syncthing 文件夹。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Send a ping to the Syncthing REST API to verify the API key is correct and Syncthing is running."
+msgstr "向 Syncthing REST API 发送 ping，以确认 API 密钥正确且 Syncthing 正在运行。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to open the advanced Syncthing configuration."
+msgstr "点击以打开高级 Syncthing 配置。"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/status_panel.lua
+msgid "ready"
+msgstr "就绪"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/status_section.lua
+msgid "not configured"
+msgstr "未配置"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "retrying…"
+msgstr "正在重试…"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/status_panel.lua
+msgid "error"
+msgstr "错误"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"Nudges Syncthing's REST API after every save so changes propagate immediately, without waiting for Syncthing's own periodic scan cycle.\n"
+"\n"
+"Disable this if you use a different sync tool — Syncery will still write its JSON files; your sync tool just picks them up on its own schedule."
+msgstr ""
+"每次保存后提示 Syncthing 的 REST API，以便变更立即传播，无需等待 Syncthing 自身的定期扫描周期。\n"
+"\n"
+"若使用其他同步工具，请禁用此项。Syncery 仍会写入 JSON 文件，其他同步工具会按自己的计划拾取它们。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Syncthing integration"
+msgstr "Syncthing 集成"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Configure Syncthing…"
+msgstr "配置 Syncthing…"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Wizard, manual API key / folder settings, connection test, and setup guides."
+msgstr "向导、手动 API 密钥/文件夹设置、连接测试和设置指南。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Enable Syncthing integration first."
+msgstr "请先启用 Syncthing 集成。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to configure Syncthing: wizard, API key / folder ID, test, and guides."
+msgstr "点击以配置 Syncthing：向导、API 密钥/文件夹 ID、测试和指南。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid ""
+"Upload Syncery's per-book JSON files to a cloud destination (Dropbox, WebDAV, or FTP) using KOReader's built-in cloud storage picker.\n"
+"\n"
+"A good fallback when Syncthing isn't an option (e.g. iOS, managed networks).  Uploads are debounced to protect rate-limited providers like Dropbox — the default delay is 60 s.\n"
+"\n"
+"Cloud and Syncthing can be enabled at the same time, but running both is rarely necessary."
+msgstr ""
+"使用 KOReader 内置云存储选择器，将 Syncery 的每本书 JSON 文件上传到云端目标（Dropbox、WebDAV 或 FTP）。\n"
+"\n"
+"当无法使用 Syncthing 时（例如 iOS、受管网络）是很好的替代方案。上传会采用防抖以保护 Dropbox 等有频率限制的服务商，默认延迟为 60 秒。\n"
+"\n"
+"可同时启用云端和 Syncthing，但通常没有必要同时运行两者。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Cloud storage"
+msgstr "云存储"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Cloud settings"
+msgstr "云端设置"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Choose the cloud destination and tune upload behaviour."
+msgstr "选择云端目标并调整上传行为。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Enable Cloud storage first."
+msgstr "请先启用云存储。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Tap to set up Dropbox / WebDAV / FTP and adjust upload timing."
+msgstr "点击以设置 Dropbox / WebDAV / FTP 并调整上传时间。"
+
+#: syncery_ui/status_panel.lua syncery_ui/status_ui/init.lua
+msgid "never"
+msgstr "从不"
+
+#: syncery_ui/menu/status_section.lua syncery_ui/status_panel.lua
+#: syncery_ui/status_section.lua syncery_ui/status_ui/init.lua
+#: syncery_ui/trash/init.lua
+msgid "just now"
+msgstr "刚刚"
+
+#: syncery_ui/menu/status_section.lua syncery_ui/status_panel.lua
+#: syncery_ui/status_section.lua syncery_ui/status_ui/init.lua
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "%d min ago"
+msgstr "%d 分钟前"
+
+#: syncery_ui/menu/status_section.lua syncery_ui/status_panel.lua
+#: syncery_ui/status_section.lua syncery_ui/status_ui/init.lua
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "%d hr ago"
+msgstr "%d 小时前"
+
+#: syncery_ui/status_panel.lua syncery_ui/trash/init.lua
+#, lua-format
+msgid "%d days ago"
+msgstr "%d 天前"
+
+#: syncery_ui/status_panel.lua
+msgid "This transport is not active."
+msgstr "此传输方式未启用。"
+
+#: syncery_ui/status_panel.lua
+msgid "Enable it from the sync menu to see its status here."
+msgstr "请从同步菜单启用它，以在此处查看状态。"
+
+#: syncery_ui/status_panel.lua
+msgid "disabled"
+msgstr "已禁用"
+
+#: syncery_ui/status_panel.lua
+msgid "needs setup"
+msgstr "需要设置"
+
+#: syncery_ui/status_panel.lua
+msgid "retrying"
+msgstr "正在重试"
+
+#: syncery_ui/status_panel.lua
+msgid "Status: "
+msgstr "状态："
+
+#: syncery_ui/status_panel.lua
+msgid "Available: "
+msgstr "可用："
+
+#: syncery_ui/status_panel.lua
+msgid "yes"
+msgstr "是"
+
+#: syncery_ui/status_panel.lua
+msgid "no"
+msgstr "否"
+
+#: syncery_ui/status_panel.lua
+msgid "Last error: "
+msgstr "上次错误："
+
+#: syncery_ui/status_panel.lua
+msgid "Pending retry: "
+msgstr "待重试："
+
+#: syncery_ui/status_panel.lua
+msgid "No books are waiting to sync on this transport."
+msgstr "此传输方式没有等待同步的书籍。"
+
+#: syncery_ui/status_panel.lua
+#, lua-format
+msgid "Books with pending sync state (%d):"
+msgstr "有待同步状态的书籍（%d）："
+
+#: syncery_ui/status_panel.lua
+msgid "(unknown book)"
+msgstr "（未知书籍）"
+
+#: syncery_ui/status_panel.lua
+#, lua-format
+msgid "    retry pending · last attempt %s"
+msgstr "    等待重试 · 上次尝试 %s"
+
+#: syncery_ui/status_panel.lua
+#, lua-format
+msgid "    error: %s · last attempt %s"
+msgstr "    错误：%s · 上次尝试 %s"
+
+#: syncery_ui/status_panel.lua
+#, lua-format
+msgid " · %d consecutive failures"
+msgstr " · 连续失败 %d 次"
+
+#: syncery_ui/status_panel.lua
+msgid "Stop Syncthing daemon"
+msgstr "停止 Syncthing 守护进程"
+
+#: syncery_ui/status_panel.lua
+msgid "Start Syncthing daemon"
+msgstr "启动 Syncthing 守护进程"
+
+#: syncery_ui/status_panel.lua
+msgid "Syncthing daemon control"
+msgstr "Syncthing 守护进程控制"
+
+#: syncery_ui/status_panel.lua
+msgid "No transport selected."
+msgstr "未选择传输方式。"
+
+#: syncery_ui/status_panel.lua
+msgid "Syncthing daemon stopped."
+msgstr "Syncthing 守护进程已停止。"
+
+#: syncery_ui/status_panel.lua
+msgid "Syncthing daemon started."
+msgstr "Syncthing 守护进程已启动。"
+
+#: syncery_ui/status_panel.lua
+#, lua-format
+msgid "Could not change the Syncthing daemon: %s"
+msgstr "无法更改 Syncthing 守护进程：%s"
+
+#: syncery_ui/status_panel.lua
+msgid "unknown error"
+msgstr "未知错误"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "%s: unsupported provider"
+msgstr "%s：不支持的提供方"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "%s: not set"
+msgstr "%s：未设置"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "%s: …"
+msgstr "%s：…"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "%s: ok"
+msgstr "%s：正常"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "%s: idle"
+msgstr "%s：空闲"
+
+#: syncery_ui/status_section.lua
+msgid "cloud"
+msgstr "云端"
+
+#: syncery_ui/status_section.lua
+msgid "no sync"
+msgstr "未同步"
+
+#: syncery_ui/status_section.lua
+msgid "idle"
+msgstr "空闲"
+
+#: syncery_ui/menu/maintenance_section.lua
+msgid "── Your Syncery data ──"
+msgstr "── 你的 Syncery 数据 ──"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "── on this device ──"
+msgstr "── 在此设备上 ──"
+
+#: syncery_ui/menu/annotations_section.lua
+msgid "── synced both ways ──"
+msgstr "── 已双向同步 ──"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "⚠ %s authentication failed"
+msgstr "⚠ %s 身份验证失败"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "⚠ %s needs setup"
+msgstr "⚠ %s 需要设置"
+
+#: syncery_ui/status_section.lua
+#, lua-format
+msgid "Retrying %s…"
+msgstr "正在重试 %s…"
+
+#: syncery_ui/status_ui/init.lua
+#, lua-format
+msgid "Page %d of %d%s"
+msgstr "第 %d 页，共 %d 页%s"
+
+#: syncery_ui/status_ui/init.lua
+msgid "This device"
+msgstr "此设备"
+
+#: syncery_ui/status_ui/init.lua
+msgid "This device: "
+msgstr "此设备："
+
+#: syncery_ui/status_ui/init.lua
+msgid "No other devices seen for this book."
+msgstr "此书未发现其他设备。"
+
+#: syncery_ui/status_ui/init.lua
+msgid "Other devices:"
+msgstr "其他设备："
+
+#: syncery_ui/status_ui/init.lua
+#, lua-format
+msgid "… and %d more"
+msgstr "…及其他 %d 项"
+
+#: syncery_ui/status_ui/init.lua
+msgid "Jump to device…"
+msgstr "跳转到设备…"
+
+#: syncery_ui/status_ui/init.lua
+msgid "Show fewer"
+msgstr "显示更少"
+
+#: syncery_ui/status_ui/init.lua
+msgid "Show all"
+msgstr "显示全部"
+
+#: syncery_ui/status_ui/init.lua
+msgid "Syncery Status"
+msgstr "Syncery 状态"
+
+#: syncery_ui/progress_browser/init.lua syncery_ui/status_ui/init.lua
+msgid "Jumped to position from "
+msgstr "已跳转到以下来源的位置："
+
+#: syncery_ui/status_ui/init.lua
+msgid "Jump to device"
+msgstr "跳转到设备"
+
+#: syncery_ui/trash/init.lua
+msgid "unknown time"
+msgstr "未知时间"
+
+#: syncery_ui/wizard.lua
+#, lua-format
+msgid "Transport: %s"
+msgstr "传输方式：%s"
+
+#: syncery_ui/trash/init.lua
+msgid "(bookmark)"
+msgstr "（书签）"
+
+#: syncery_ui/trash/init.lua
+msgid "(no text)"
+msgstr "（无文本）"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "Type: %s"
+msgstr "类型：%s"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "Page: %s"
+msgstr "页码：%s"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "Chapter: %s"
+msgstr "章节：%s"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "Deleted: %s"
+msgstr "已删除：%s"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "Deleted on: %s"
+msgstr "删除时间：%s"
+
+#: syncery_ui/trash/init.lua
+msgid "Text:"
+msgstr "文本："
+
+#: syncery_ui/trash/init.lua
+msgid "Note:"
+msgstr "笔记："
+
+#: syncery_ui/trash/init.lua
+msgid "Deleted annotation"
+msgstr "已删除的批注"
+
+#: syncery_ui/trash/init.lua
+msgid "Restore"
+msgstr "恢复"
+
+#: syncery_ui/trash/init.lua
+msgid "Annotation restored."
+msgstr "批注已恢复。"
+
+#: syncery_ui/trash/init.lua
+msgid "Could not restore annotation."
+msgstr "无法恢复批注。"
+
+#: syncery_ui/trash/init.lua
+msgid "Trash is empty — nothing to restore."
+msgstr "回收站为空，没有可恢复内容。"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "Restore all (%d item)"
+msgid_plural "Restore all (%d items)"
+msgstr[0] "恢复全部（%d 项）"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "Restore all %d deleted annotation?"
+msgid_plural "Restore all %d deleted annotations?"
+msgstr[0] "要恢复全部 %d 条已删除批注吗？"
+
+#: syncery_ui/trash/init.lua
+msgid "Restore all"
+msgstr "恢复全部"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "%d annotation restored."
+msgid_plural "%d annotations restored."
+msgstr[0] "已恢复 %d 条批注。"
+
+#: syncery_ui/trash/init.lua
+#, lua-format
+msgid "%d annotation could not be restored."
+msgid_plural "%d annotations could not be restored."
+msgstr[0] "无法恢复 %d 条批注。"
+
+#: syncery_ui/trash/init.lua
+msgid "Deleted annotations"
+msgstr "已删除的批注"
+
+#: syncery_ui/menu/maintenance_section.lua syncery_ui/wizard.lua
+msgid "Cloud"
+msgstr "云端"
+
+#: syncery_ui/wizard.lua
+msgid "Dropbox / WebDAV / FTP"
+msgstr "Dropbox / WebDAV / FTP"
+
+#: syncery_ui/wizard.lua
+msgid "Decide later"
+msgstr "稍后决定"
+
+#: syncery_ui/wizard.lua
+msgid "Set this up later from the menu"
+msgstr "稍后可从菜单中设置"
+
+#: syncery_ui/wizard.lua
+msgid "How far you've read, across devices"
+msgstr "跨设备的阅读进度"
+
+#: syncery_ui/wizard.lua
+msgid "Highlights, notes and bookmarks"
+msgstr "高亮、笔记和书签"
+
+#: syncery_ui/wizard.lua
+msgid "The annotations you already have are safe"
+msgstr "你已有的批注是安全的"
+
+#: syncery_ui/wizard.lua
+msgid "What should Syncery sync?"
+msgstr "Syncery 应同步什么？"
+
+#: syncery_ui/wizard.lua
+msgid "So you know whose progress is whose. Defaults to the device model."
+msgstr "用于区分各设备的阅读进度。默认使用设备型号。"
+
+#: syncery_ui/wizard.lua
+msgid "Setup complete"
+msgstr "设置完成"
+
+#: syncery_ui/wizard.lua
+msgid "Syncery will sync: nothing yet."
+msgstr "Syncery 将同步：尚未启用任何内容。"
+
+#: syncery_ui/wizard.lua
+#, lua-format
+msgid "Syncery will sync: %s."
+msgstr "Syncery 将同步：%s。"
+
+#: syncery_ui/menu/transport_section.lua syncery_ui/wizard_presenter.lua
+msgid "Could not reach Syncthing. Is it running?"
+msgstr "无法连接 Syncthing。它正在运行吗？"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Found and selected your only configured folder \"%s\". If it's the wrong one, set the correct folder in Syncthing, then choose it from the folder list."
+msgstr "找到并选择了唯一已配置的文件夹“%s”。若不是正确的文件夹，请在 Syncthing 中设置正确文件夹，再从文件夹列表中选择。"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Choose a folder to sync"
+msgstr "选择要同步的文件夹"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Syncthing port"
+msgstr "Syncthing 端口"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Syncthing port: %d"
+msgstr "Syncthing 端口：%d"
+
+#: syncery_ui/menu/transport_section.lua
+msgid "Default: 8384. Change only if your Syncthing GUI uses a non-standard port. It must be between 1024 and 65535."
+msgstr "默认值：8384。仅当 Syncthing GUI 使用非标准端口时才修改。端口必须介于 1024 和 65535 之间。"
+
+#: syncery_ui/menu/per_book_section.lua
+msgid "⚠ Reading status differs — tap to resolve"
+msgstr "⚠ 阅读状态不同：点击以解决"
