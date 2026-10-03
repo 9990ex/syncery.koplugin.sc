@@ -2,7 +2,7 @@
 
 <img src="assets/syncery.svg" alt="Syncery" />
 
-[![发布版](https://img.shields.io/badge/release-v1.2.4.1.1-blue)](https://github.com/9990ex/syncery.koplugin.sc/releases)
+[![发布版](https://img.shields.io/badge/release-v1.2.4.1.2-blue)](https://github.com/9990ex/syncery.koplugin.sc/releases)
 [![许可证](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 
 **适用于 KOReader 的跨设备阅读进度、批注、元数据和渲染设置同步。**
@@ -14,7 +14,7 @@ Syncery 会通过 Syncthing 或云存储（Dropbox/WebDAV/FTP），在你的所�
 </div>
 
 > 本仓库是 [d0nizam/syncery.koplugin](https://github.com/d0nizam/syncery.koplugin) 的非官方简体中文 fork。
-> 上游基线为 v1.2.4.1；本仓库版本为 v1.2.4.1.1。功能、原始版权与许可证均保留。
+> 上游基线为 v1.2.4.1；本仓库版本为 v1.2.4.1.2。功能、原始版权与许可证均保留。
 
 ---
 
@@ -22,6 +22,7 @@ Syncery 会通过 Syncthing 或云存储（Dropbox/WebDAV/FTP），在你的所�
 
 - **[设置与同步指南](SETUP.md)**：首次配置请从这里开始
 - [功能](#功能)
+- [静读天下导入（实验性）](#静读天下导入实验性)
 - [支持的设备](#支持的设备)
 - [安装](#安装)
 - [首次设置](#首次设置)
@@ -55,8 +56,29 @@ Syncery 可让你在每台 KOReader 设备上的阅读状态保持一致。它�
 - **全书库立即同步**：一次操作推送和拉取所有有待同步变更的书，而不仅是当前打开的书；还能发现你在其他设备同步但本机从未打开的书，预取其进度和批注。
 - **阅读统计和词汇表**：可按同一周期触发 KOReader 内置的阅读统计与生词本插件，通过云存储同步它们自己的数据库。Syncery 只触发同步，合并由这些插件自行处理。
 - **集中查看**：**进度浏览器**展示每本书在每台设备上的阅读进度，可跳到任一设备的位置或返回本机上次位置；**批注浏览器**汇集整个书库的高亮和笔记。
+- **静读天下进度导入（实验性）**：可为当前 EPUB 手动选择同名的 Moon+ Reader `.epub.po` 文件，读取其中的阅读百分比，并在跳转前询问你确认。
 
 字段和开关见[Syncery 同步的内容](#syncery-同步的内容)，实现方式见[架构概览](#架构概览)。
+
+---
+
+## 静读天下导入（实验性）
+
+此功能用于将**已在 KOReader 设备本地可见**的静读天下（Moon+ Reader）阅读进度导入当前 EPUB：
+
+1. 在静读天下中正常云同步，让对应的 `.epub.po` 文件出现在 Android 本地存储中。
+2. 在 KOReader 打开同一份 EPUB，进入 **Syncery -> 本书 -> 导入静读天下阅读进度**。
+3. 选择与 EPUB 文件名完全一致、末尾多出 `.po` 的文件。例如 `书名.epub` 对应 `书名.epub.po`。
+4. Syncery 只读取记录的百分比，显示确认提示；点击“跳转”后，KOReader 会把该位置作为本机阅读位置保存。随后可用 **立即同步** 将 KOReader 自己的新位置通过既有 Syncthing/WebDAV 同步到其他 KOReader 设备。
+
+边界与安全措施：
+
+- 仅支持 EPUB；TXT 的位置坐标体系不同，暂不导入。
+- 仅为同名文件启用选择，以降低选错书籍或不同版本 EPUB 的风险。
+- Moon+ 没有提供 KOReader 可直接使用的精确 xpointer，因此首版按百分比近似跳转；不同排版或不同制作版本可能有偏差。
+- 只读 `.po`，不会写入、删除或上传 Moon+ 文件，也不会导入 Moon+ 的笔记、书签或高亮。
+- 这不是 Moon+ WebDAV 下载器。若 `.Moon+/Cache` 只存在于 WebDAV 而不在 KOReader 本地，需等待后续的严格只读 WebDAV 读取功能。
+- Moon+ Reader 是其权利人的闭源商业软件；本项目与其没有关联。此功能仅解析用户自己可访问的本地进度文本，不绕过登录、许可、DRM 或访问控制。
 
 ---
 
@@ -204,7 +226,7 @@ Syncery                                         <- ☰ -> 工具中的顶层入�
 |- 传输方式 -> 配置 Syncthing；云端设置
 |- 进度浏览器                                    <- 查看每本书每台设备进度并跳转
 |- 批注浏览器                                    <- 跨书查看高亮和笔记
-|- 本书 -> 撤销上次跳转；仅删除批注；完全重置
+|- 本书 -> 导入静读天下阅读进度；撤销上次跳转；仅删除批注；完全重置
 |- 工具 -> 导入旧批注；管理同步图书；清理孤立文件；活动记录；Syncthing/云端维护
 |- 高级 -> 存储模式；设备名称/二维码；诊断信息；详细日志；保存间隔；删除和重置
 `- 检查插件更新
