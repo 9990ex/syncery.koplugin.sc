@@ -2,6 +2,8 @@
 
 <img src="assets/syncery.svg" alt="Syncery" />
 
+[简体中文说明](README.zh-CN.md)
+
 [![Release](https://img.shields.io/badge/release-v1.2.4.1-blue)](https://github.com/d0nizam/syncery.koplugin/releases)
 [![License](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 ![Tests](https://img.shields.io/badge/tests-139%20passing-brightgreen)
