@@ -137,7 +137,7 @@ function PrefetchLocate.prompt(book_id, peer_path, on_opened, explain_text, titl
     local UIManager   = require("ui/uimanager")
     local ConfirmBox  = require("ui/widget/confirmbox")
     local PathChooser = require("ui/widget/pathchooser")
-    local _           = require("gettext")
+    local _           = require("syncery_i18n").translate
 
     local shown = title
     if (not shown or shown == "") and type(peer_path) == "string" then
