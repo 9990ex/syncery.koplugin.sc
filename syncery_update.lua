@@ -22,7 +22,7 @@
 local M = {}
 
 -- REPO: the GitHub "owner/repo" the update checks — releases live here.
-local REPO          = "d0nizam/syncery.koplugin"
+local REPO          = "9990ex/syncery.koplugin.sc"
 local API_LATEST    = "https://api.github.com/repos/" .. REPO .. "/releases/latest"
 local RELEASES_PAGE = "https://github.com/" .. REPO .. "/releases"
 local USER_AGENT    = "KOReader-Syncery"
