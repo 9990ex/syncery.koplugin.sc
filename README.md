@@ -4,7 +4,7 @@
 
 [简体中文说明](README.zh-CN.md)
 
-[![Release](https://img.shields.io/badge/release-v1.2.4.1-blue)](https://github.com/d0nizam/syncery.koplugin/releases)
+[![Release](https://img.shields.io/badge/release-v1.2.4.1.2-blue)](https://github.com/9990ex/syncery.koplugin.sc/releases)
 [![License](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 ![Tests](https://img.shields.io/badge/tests-139%20passing-brightgreen)
 
@@ -14,6 +14,9 @@ Syncery synchronises per-device reading data across all your KOReader devices �
 
 **New here?** Start with the **[Setup &amp; Sync Guide](SETUP.md)** — how to set up Syncthing or cloud sync from scratch.
 
+> This repository is an unofficial fork of [d0nizam/syncery.koplugin](https://github.com/d0nizam/syncery.koplugin).  
+> Upstream baseline: v1.2.4.1; this repository: v1.2.4.1.2. Functionality, original copyright, and license are retained.
+
 </div>
 
 ---
@@ -22,6 +25,7 @@ Syncery synchronises per-device reading data across all your KOReader devices �
 
 - **[Setup &amp; Sync Guide](SETUP.md)** — start here if you're setting things up
 - [Features](#features)
+- [Moon+ Reader import (experimental)](#moon-reader-import-experimental)
 - [Supported devices](#supported-devices)
 - [Installation](#installation)
 - [First-time setup](#first-time-setup)
@@ -55,8 +59,29 @@ Syncery keeps your reading life in step across every KOReader device — self-ho
 - **Whole-library Sync Now** — one tap pushes and pulls every book with a pending change, not just the one you have open, and discovers books your other devices have synced that you've never opened here — their progress and annotations are prefetched, so they're ready the moment you do.
 - **Reading statistics & vocabulary** — automatically trigger KOReader's built-in Statistics and Vocabulary Builder plugins to sync their databases over your cloud storage, using the same periodic schedule. Syncery triggers the sync; the plugins handle the merge themselves.
 - **See everything in one place** — a **Progress Browser** shows how far each device has read in every book (and jumps you to any of them, or back to where this device itself left off), and an **Annotation Browser** gathers all your highlights and notes across your whole library.
+- **Moon+ Reader progress import (experimental)** - for the current EPUB, select its matching local Moon+ Reader `.epub.po` file. Syncery reads only the progress percentage, then asks before jumping.
 
 For the exact fields and toggles, see [What Syncery syncs](#what-syncery-syncs); for how it's built, see [Architecture overview](#architecture-overview).
+
+---
+
+## Moon+ Reader import (experimental)
+
+This feature imports reading progress from a Moon+ Reader cache file that is already locally accessible on the KOReader device:
+
+1. Let Moon+ Reader complete its normal cloud sync so the corresponding `.epub.po` file exists in Android local storage.
+2. Open the same EPUB in KOReader, then choose **Syncery -> This book -> Import Moon+ Reader progress**.
+3. Select the file whose name exactly matches the EPUB filename with `.po` appended. For example, `Book.epub` uses `Book.epub.po`.
+4. Syncery reads only the percentage and displays a confirmation prompt. Choosing **Jump** stores the position as KOReader's local position. You can then use **Sync now** to sync KOReader's own new position with your existing Syncthing or WebDAV transport.
+
+### Limits and safety
+
+- EPUB only. TXT uses a different position coordinate system and is not imported.
+- The file picker accepts only the same-name file, reducing the risk of selecting another book or EPUB edition.
+- Moon+ Reader does not expose a KOReader xpointer, so this first version jumps approximately by percentage; layout or EPUB-production differences can cause deviation.
+- The `.po` file is read only. Syncery never writes, deletes, or uploads Moon+ files, and it does not import Moon+ notes, bookmarks, or highlights.
+- This is not a Moon+ WebDAV downloader. If `.Moon+/Cache` exists only on WebDAV and not locally on the KOReader device, use the later, strictly read-only WebDAV import feature when it is released.
+- Moon+ Reader is closed-source commercial software owned by its respective rights holder. This project is not affiliated with it. The importer only parses a user's locally accessible progress text and does not bypass sign-in, licensing, DRM, or access controls.
 
 ---
 
@@ -237,6 +262,7 @@ Syncery                                         ← top-level entry in ☰ → T
 ├── Annotation Browser                          ← browse all synced highlights and notes across every book
 │
 ├── This book ▸                                 ← only when a document is open
+│   ├── Import Moon+ Reader progress (experimental)
 │   ├── Undo last jump
 │   ├── Delete annotations only (keeps progress)
 │   └── Full reset – mark all as deleted (all devices)
